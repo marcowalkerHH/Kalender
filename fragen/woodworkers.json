@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Welches Holzwerkzeug nutzt man, um unebene Flächen glatt zu hobeln?",
+        "answers": [
+            {"text": "Raspel", "correct": false},
+            {"text": "Putzhobel", "correct": true},
+            {"text": "Feinsäge", "correct": false},
+            {"text": "Stechbeitel", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Faser-Richtung im Holz, entlang derer man möglichst schneiden sollte?",
+        "answers": [
+            {"text": "Quer zur Maserung", "correct": false},
+            {"text": "Gegen die Maserung", "correct": false},
+            {"text": "Entlang der Maserung", "correct": true},
+            {"text": "Diagonal zur Maserung", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Verbindung entsteht durch zwei zueinander passende rechteckige Ausnehmungen und Zapfen?",
+        "answers": [
+            {"text": "Schwalbenschwanz", "correct": false},
+            {"text": "Zapfenverbindung", "correct": true},
+            {"text": "Nut-und-Feder", "correct": false},
+            {"text": "Gehrungsverbindung", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Maßeinheit, mit der man die Dicke von Furnierblättern angibt?",
+        "answers": [
+            {"text": "Zoll", "correct": false},
+            {"text": "Millimeter", "correct": true},
+            {"text": "Kubikzentimeter", "correct": false},
+            {"text": "Kilogramm", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Schutzmaßnahme ist bei Arbeiten mit der Kreissäge besonders wichtig?",
+        "answers": [
+            {"text": "Ohropax", "correct": false},
+            {"text": "Schiebestock verwenden", "correct": true},
+            {"text": "Holz anblasen", "correct": false},
+            {"text": "Handschuhe tragen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Holzart ist für ihre rötliche Farbe und Haltbarkeit bekannt?",
+        "answers": [
+            {"text": "Fichte", "correct": false},
+            {"text": "Buche", "correct": false},
+            {"text": "Mahagoni", "correct": true},
+            {"text": "Pappel", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man das Werkzeug, mit dem man Dübellöcher exakt positioniert?",
+        "answers": [
+            {"text": "Streichmaß", "correct": false},
+            {"text": "Dübellehre", "correct": true},
+            {"text": "Schmiege", "correct": false},
+            {"text": "Fuchsschwanz", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Holzverbindung ist besonders dekorativ und widersteht dem Auseinanderziehen?",
+        "answers": [
+            {"text": "Fingerzinkung", "correct": false},
+            {"text": "Schwalbenschwanz", "correct": true},
+            {"text": "Verdeckte Nut", "correct": false},
+            {"text": "Einfacher Stoß", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man das Maß, das die Breite eines Sägeblatts beschreibt?",
+        "answers": [
+            {"text": "Schnittfuge", "correct": true},
+            {"text": "Schnitttiefe", "correct": false},
+            {"text": "Sägewinkel", "correct": false},
+            {"text": "Sägedruck", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Maschine nutzt man zum Herstellen exakter Nut- und Federprofile?",
+        "answers": [
+            {"text": "Bandsäge", "correct": false},
+            {"text": "Oberfräse", "correct": true},
+            {"text": "Dekupiersäge", "correct": false},
+            {"text": "Kappsäge", "correct": false}
+        ]
+    },
+    {
+        "question": "Was versteht man unter dem Begriff 'Leimfuge'?",
+        "answers": [
+            {"text": "Eine dünne Holzschicht", "correct": false},
+            {"text": "Das mit Leim verbundene Stoßfeld zweier Bretter", "correct": true},
+            {"text": "Ein spezieller Holzleim", "correct": false},
+            {"text": "Eine Art Schraubverbindung", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Werkzeug verwendet man, um Schraubenköpfe im Holz zu versenken?",
+        "answers": [
+            {"text": "Forstnerbohrer", "correct": false},
+            {"text": "Senkbohrer", "correct": true},
+            {"text": "Lochsäge", "correct": false},
+            {"text": "Zapfenschneider", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Eigenschaft beschreibt die Janka-Härte?",
+        "answers": [
+            {"text": "Dichte eines Holzes", "correct": false},
+            {"text": "Härte gegen Eindrücken", "correct": true},
+            {"text": "Elastizität", "correct": false},
+            {"text": "Feuchtigkeitsgehalt", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Technik, bei der Holzlagen kreuzweise verleimt werden?",
+        "answers": [
+            {"text": "Laminieren", "correct": true},
+            {"text": "Bohren", "correct": false},
+            {"text": "Drechseln", "correct": false},
+            {"text": "Trocknen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Feuchtigkeit sollte Bauholz in Innenräumen ungefähr besitzen?",
+        "answers": [
+            {"text": "5%", "correct": false},
+            {"text": "8-12%", "correct": true},
+            {"text": "18-22%", "correct": false},
+            {"text": "30%", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt das Werkzeug, das man zum Übertragen von Winkeln nutzt?",
+        "answers": [
+            {"text": "Streichmaß", "correct": false},
+            {"text": "Schmiege", "correct": true},
+            {"text": "Rutscher", "correct": false},
+            {"text": "Kantenzieher", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Leim ist besonders wasserfest und eignet sich für den Außenbereich?",
+        "answers": [
+            {"text": "Weißleim D1", "correct": false},
+            {"text": "PU-Leim", "correct": true},
+            {"text": "Stärkeleim", "correct": false},
+            {"text": "Tapetenkleister", "correct": false}
+        ]
+    },
+    {
+        "question": "Was ist der Vorteil von MDF-Platten gegenüber Massivholz?",
+        "answers": [
+            {"text": "Sie sind leichter", "correct": false},
+            {"text": "Sie verziehen sich kaum", "correct": true},
+            {"text": "Sie sind wasserfest", "correct": false},
+            {"text": "Sie sind deutlich härter", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Drehmaschine, auf der man Rundformen aus Holz fertigt?",
+        "answers": [
+            {"text": "Tischkreissäge", "correct": false},
+            {"text": "Drechselbank", "correct": true},
+            {"text": "Kantenschleifer", "correct": false},
+            {"text": "Abrichthobel", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Schleifpapier eignet sich, um Lack zwischen zwei Schichten anzuschleifen?",
+        "answers": [
+            {"text": "Körnung 40", "correct": false},
+            {"text": "Körnung 80", "correct": false},
+            {"text": "Körnung 240", "correct": true},
+            {"text": "Körnung 4000", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Holzart wird traditionell für Skateboard-Decks verwendet?",
+        "answers": [
+            {"text": "Eiche", "correct": false},
+            {"text": "Ahorn", "correct": true},
+            {"text": "Birke", "correct": false},
+            {"text": "Kiefer", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Technik, Holz mit dünnen Metallklammern vorübergehend zu fixieren?",
+        "answers": [
+            {"text": "Klammern", "correct": false},
+            {"text": "Tackern", "correct": true},
+            {"text": "Pinnen", "correct": false},
+            {"text": "Stapeln", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Maserung zeigt die Jahresringe des Holzes als breite Linien?",
+        "answers": [
+            {"text": "Tangentiale Maserung", "correct": true},
+            {"text": "Radiale Maserung", "correct": false},
+            {"text": "Querfasermaserung", "correct": false},
+            {"text": "Geflammte Maserung", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man dünne Holzstäbe, die man zur Verstärkung von Leimfugen einsetzt?",
+        "answers": [
+            {"text": "Schlitz", "correct": false},
+            {"text": "Lamellos", "correct": true},
+            {"text": "Keile", "correct": false},
+            {"text": "Nocken", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Maschine hobelt Holz auf eine exakte Stärke und glatte Oberfläche?",
+        "answers": [
+            {"text": "Abrichthobel", "correct": false},
+            {"text": "Dickenhobel", "correct": true},
+            {"text": "Tellerschleifer", "correct": false},
+            {"text": "Formatkreissäge", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie verhindert man Rissbildung an Hirnholzflächen frisch gesägter Stämme?",
+        "answers": [
+            {"text": "Mit Öl abreiben", "correct": false},
+            {"text": "Mit Wachs versiegeln", "correct": true},
+            {"text": "In Wasser legen", "correct": false},
+            {"text": "Schnell trocknen", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man das natürliche Muster, das durch wechselnde Faserorientierung entsteht?",
+        "answers": [
+            {"text": "Flechtung", "correct": false},
+            {"text": "Flader", "correct": true},
+            {"text": "Furnier", "correct": false},
+            {"text": "Fase", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Schraubenart eignet sich besonders für das Verschrauben von Spanplatten?",
+        "answers": [
+            {"text": "Sechskantschraube", "correct": false},
+            {"text": "Spanplattenschraube", "correct": true},
+            {"text": "Metrische Schraube", "correct": false},
+            {"text": "Holzdübel", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt das Verfahren, bei dem Holz durch Dampf biegsam gemacht wird?",
+        "answers": [
+            {"text": "Dämpfen", "correct": true},
+            {"text": "Brennen", "correct": false},
+            {"text": "Laugen", "correct": false},
+            {"text": "Pressen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Werkzeug verwendet man, um kleine, präzise Löcher für Beschläge zu bohren?",
+        "answers": [
+            {"text": "Schlangenbohrer", "correct": false},
+            {"text": "Vorstecher", "correct": false},
+            {"text": "Stechahle", "correct": true},
+            {"text": "Flachfräser", "correct": false}
+        ]
+    }
+]

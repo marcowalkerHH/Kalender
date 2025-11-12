@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOAHSKALENDER</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="matrix-intro" class="fullscreen">
+        <canvas id="matrix-canvas"></canvas>
+        <div class="matrix-noise"></div>
+    </div>
+
+    <main id="app">
+        <section id="login-screen" class="fullscreen hidden">
+            <div class="login-card">
+                <h1>Systemzugang</h1>
+                <form id="login-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+
+                    <label for="birthdate">Geburtsdatum</label>
+                    <input type="date" id="birthdate" required>
+
+                    <div class="challenge">
+                        <span id="challenge-text"></span>
+                        <input type="number" id="challenge-answer" required>
+                    </div>
+
+                    <button type="submit">Anmelden</button>
+                    <p id="login-error" class="error"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="intermediate-screen" class="fullscreen hidden">
+            <div class="glitch-container">
+                <span class="glitch" data-text="NOAHS ADVENTS KALENDER 2025">NOAHS ADVENTS KALENDER 2025</span>
+            </div>
+        </section>
+
+        <section id="calendar-screen" class="hidden">
+            <header>
+                <h1 id="calendar-title">NOAHSKALENDER</h1>
+                <div class="audio-controls">
+                    <button id="mute-toggle" aria-label="Ton an/aus">🔊</button>
+                    <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.5" aria-label="Lautstärke">
+                </div>
+            </header>
+            <div id="animation-layer">
+                <div class="santa">🎅</div>
+                <div class="elf elf-left">🧝</div>
+                <div class="elf elf-right">🧝</div>
+            </div>
+            <div class="snow"></div>
+            <div id="calendar-grid"></div>
+            <div class="controls">
+                <button id="refresh-questions">Fragen neu mischen</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="question-modal" class="hidden" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Schließen">×</button>
+            <h2 id="question-category"></h2>
+            <p id="question-text"></p>
+            <div id="answers"></div>
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <audio id="background-audio" preload="auto"></audio>
+
+    <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Wie heißt die Insel, auf der Fortnite: Battle Royale standardmäßig gespielt wird?",
+        "answers": [
+            {"text": "Apollo", "correct": false},
+            {"text": "Athena", "correct": true},
+            {"text": "Zeus", "correct": false},
+            {"text": "Poseidon", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Ressource erhält man, indem man Bäume mit der Spitzhacke abbaut?",
+        "answers": [
+            {"text": "Stein", "correct": false},
+            {"text": "Metall", "correct": false},
+            {"text": "Holz", "correct": true},
+            {"text": "Goldbarren", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die sich verkleinernde Zone, die Spieler zwingt, näher zusammenzukommen?",
+        "answers": [
+            {"text": "Der Loop", "correct": false},
+            {"text": "Der Sturm", "correct": true},
+            {"text": "Der Nebel", "correct": false},
+            {"text": "Die Flut", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche seltene Waffenfarbe steht in Fortnite für epische Qualität?",
+        "answers": [
+            {"text": "Blau", "correct": false},
+            {"text": "Lila", "correct": true},
+            {"text": "Orange", "correct": false},
+            {"text": "Grün", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Spieler starten in einer Standardrunde Battle Royale?",
+        "answers": [
+            {"text": "50", "correct": false},
+            {"text": "75", "correct": false},
+            {"text": "100", "correct": true},
+            {"text": "120", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Heilung stellt sofort 50 Schildpunkte wieder her?",
+        "answers": [
+            {"text": "Minis", "correct": false},
+            {"text": "Großer Schildtrank", "correct": true},
+            {"text": "Fisch", "correct": false},
+            {"text": "Verbandskasten", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Erbauer-Modus, in dem man eigene Karten erstellen kann?",
+        "answers": [
+            {"text": "Party Royale", "correct": false},
+            {"text": "Kreativmodus", "correct": true},
+            {"text": "Arena", "correct": false},
+            {"text": "Team Rumble", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Spielfigur ist der maskierte Held im Battle Pass Kapitel 2, Season 2?",
+        "answers": [
+            {"text": "Midas", "correct": true},
+            {"text": "Lynx", "correct": false},
+            {"text": "Drift", "correct": false},
+            {"text": "Orin", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Fahrzeug kehrte in Kapitel 4 zurück und kann Passagiere befördern?",
+        "answers": [
+            {"text": "Quadcrasher", "correct": false},
+            {"text": "Motorrad", "correct": false},
+            {"text": "Battle Bus", "correct": false},
+            {"text": "Auto", "correct": true}
+        ]
+    },
+    {
+        "question": "Welche Waffe feuert explosive Projektile und war lange Zeit im Tresor?",
+        "answers": [
+            {"text": "Granatenwerfer", "correct": true},
+            {"text": "Schallgedämpftes Sturmgewehr", "correct": false},
+            {"text": "Doppelläufige Schrotflinte", "correct": false},
+            {"text": "Trommelpistole", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Seltenheitsstufen besitzen Waffen, wenn man mythische Gegenstände mitzählt?",
+        "answers": [
+            {"text": "Vier", "correct": false},
+            {"text": "Fünf", "correct": false},
+            {"text": "Sechs", "correct": true},
+            {"text": "Sieben", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Ressource, mit der man Waffen beim Waffenexperten aufwerten kann?",
+        "answers": [
+            {"text": "Goldbarren", "correct": true},
+            {"text": "XP-Tokens", "correct": false},
+            {"text": "Robo-Teile", "correct": false},
+            {"text": "Kraftkerne", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Technik, bei der man blitzschnell Rampen und Wände baut, um sich zu schützen?",
+        "answers": [
+            {"text": "Sweating", "correct": false},
+            {"text": "Turtling", "correct": true},
+            {"text": "Chilling", "correct": false},
+            {"text": "Farming", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Gegenstand lässt einen Spieler mit einem Sprung sehr hoch fliegen und verhindert Fallschaden?",
+        "answers": [
+            {"text": "Launchpad", "correct": true},
+            {"text": "Schattengranate", "correct": false},
+            {"text": "Stoßwellengranate", "correct": false},
+            {"text": "Gleiter erneut verwenden", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Materialien benötigt man, um eine komplette Box (vier Wände, Boden, Dach) zu bauen?",
+        "answers": [
+            {"text": "50", "correct": false},
+            {"text": "60", "correct": true},
+            {"text": "70", "correct": false},
+            {"text": "80", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Waffe kombiniert Nahkampfschaden mit dem Aufladen eines Schusses?",
+        "answers": [
+            {"text": "Taktische Schrotflinte", "correct": false},
+            {"text": "Pumpgun", "correct": false},
+            {"text": "Schrotflinte mit Ladefunktion", "correct": true},
+            {"text": "Hebel-Schrotflinte", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der NPC, der dir mythische Waffen verkauft, wenn du genug Gold hast?",
+        "answers": [
+            {"text": "Boss", "correct": false},
+            {"text": "Händler", "correct": false},
+            {"text": "Exot", "correct": false},
+            {"text": "Charakter", "correct": true}
+        ]
+    },
+    {
+        "question": "Welche Jahreszeit brachte zum ersten Mal Fahrzeuge in Fortnite?",
+        "answers": [
+            {"text": "Kapitel 1, Season 3", "correct": false},
+            {"text": "Kapitel 1, Season 5", "correct": true},
+            {"text": "Kapitel 2, Season 2", "correct": false},
+            {"text": "Kapitel 3, Season 1", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Modus erlaubt es, nach dem Eliminieren wiederzubeleben, solange ein Teamkamerad lebt?",
+        "answers": [
+            {"text": "Solo", "correct": false},
+            {"text": "Arena", "correct": false},
+            {"text": "Team Rumble", "correct": true},
+            {"text": "Kreativ", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Munition nutzt die Scharfschützengewehr-Klasse?",
+        "answers": [
+            {"text": "Leichte Munition", "correct": false},
+            {"text": "Mittlere Munition", "correct": false},
+            {"text": "Schwere Munition", "correct": true},
+            {"text": "Raketen", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Battle Stars benötigt man pro Level im Kapitel-2-Battle-Pass?",
+        "answers": [
+            {"text": "5", "correct": false},
+            {"text": "10", "correct": true},
+            {"text": "15", "correct": false},
+            {"text": "20", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Gegenstand lässt Gegner auf der Karte sichtbar werden, wenn man ihn einsetzt?",
+        "answers": [
+            {"text": "Signal-Fackel", "correct": false},
+            {"text": "Schallboje", "correct": false},
+            {"text": "Aufklärungsdrohne", "correct": true},
+            {"text": "Ortungsgranate", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche mechanische Neuerung brachte Kapitel 2 mit sich?",
+        "answers": [
+            {"text": "Fischen", "correct": true},
+            {"text": "Bauen", "correct": false},
+            {"text": "Gleiter", "correct": false},
+            {"text": "Emotes", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Ingame-Währung, mit der man Skins kaufen kann?",
+        "answers": [
+            {"text": "Fortcoins", "correct": false},
+            {"text": "V-Bucks", "correct": true},
+            {"text": "Epic-Dollar", "correct": false},
+            {"text": "Battle Points", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Region auf der Karte ist bekannt für seine hohen Felder und den Bauernhof?",
+        "answers": [
+            {"text": "Lazy Lake", "correct": false},
+            {"text": "Frenzy Farm", "correct": true},
+            {"text": "Pleasant Park", "correct": false},
+            {"text": "Retail Row", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Fähigkeit verleiht der Zero-Point-Fisch?",
+        "answers": [
+            {"text": "Unsichtbarkeit", "correct": false},
+            {"text": "Schweben und Teleport-Sprünge", "correct": true},
+            {"text": "Doppelte Schildregeneration", "correct": false},
+            {"text": "Schneller bauen", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Modus, in dem Musik-Partys ohne Kämpfe stattfinden?",
+        "answers": [
+            {"text": "Party Royale", "correct": true},
+            {"text": "Beat Box", "correct": false},
+            {"text": "Sound Rave", "correct": false},
+            {"text": "Boogie Bash", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Gegenstand verhindert Fallschaden und ermöglicht Gleitflüge nach einem Sprungturm?",
+        "answers": [
+            {"text": "Stoßwelle", "correct": false},
+            {"text": "Ballon", "correct": false},
+            {"text": "Gleiter erneut einsetzen", "correct": true},
+            {"text": "Crash-Pad", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Farbe hat ein legendärer Gegenstand?",
+        "answers": [
+            {"text": "Orange", "correct": true},
+            {"text": "Lila", "correct": false},
+            {"text": "Blau", "correct": false},
+            {"text": "Grau", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Saison, in der Marvel-Superhelden die Karte eroberten?",
+        "answers": [
+            {"text": "Kapitel 2, Season 4", "correct": true},
+            {"text": "Kapitel 1, Season 7", "correct": false},
+            {"text": "Kapitel 3, Season 2", "correct": false},
+            {"text": "Kapitel 4, Season 1", "correct": false}
+        ]
+    }
+]
