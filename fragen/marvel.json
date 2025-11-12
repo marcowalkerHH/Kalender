@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Welcher Infinity-Stein kontrolliert die Zeit im Marvel Cinematic Universe?",
+        "answers": [
+            {"text": "Der Seelenstein", "correct": false},
+            {"text": "Der Zeitstein", "correct": true},
+            {"text": "Der Raumstein", "correct": false},
+            {"text": "Der Realitätsstein", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt Thors Hammer, den nur wenige Auserwählte tragen können?",
+        "answers": [
+            {"text": "Gungnir", "correct": false},
+            {"text": "Stormbreaker", "correct": false},
+            {"text": "Mjölnir", "correct": true},
+            {"text": "Hofund", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Superheldin war vor ihrem Helden-Dasein Kampfpilotin der US-Luftwaffe?",
+        "answers": [
+            {"text": "Black Widow", "correct": false},
+            {"text": "Captain Marvel", "correct": true},
+            {"text": "Wasp", "correct": false},
+            {"text": "Scarlet Witch", "correct": false}
+        ]
+    },
+    {
+        "question": "Aus welchem fiktiven afrikanischen Land stammt Black Panther?",
+        "answers": [
+            {"text": "Latveria", "correct": false},
+            {"text": "Sokovia", "correct": false},
+            {"text": "Wakanda", "correct": true},
+            {"text": "Genosha", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt Tony Starks KI-Assistent, bevor F.R.I.D.A.Y. aktiviert wird?",
+        "answers": [
+            {"text": "VISION", "correct": false},
+            {"text": "KAREN", "correct": false},
+            {"text": "J.A.R.V.I.S.", "correct": true},
+            {"text": "JOCOSTA", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Figur opfert sich am Ende von Avengers: Endgame, um Thanos zu stoppen?",
+        "answers": [
+            {"text": "Captain America", "correct": false},
+            {"text": "Doctor Strange", "correct": false},
+            {"text": "Iron Man", "correct": true},
+            {"text": "Hawkeye", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Superheld trägt einen Anzug aus Vibranium-Fasern, die kinetische Energie speichern?",
+        "answers": [
+            {"text": "Spider-Man", "correct": false},
+            {"text": "Black Panther", "correct": true},
+            {"text": "War Machine", "correct": false},
+            {"text": "Falcon", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Bruder von Wanda Maximoff, der über Supergeschwindigkeit verfügt?",
+        "answers": [
+            {"text": "Pietro", "correct": true},
+            {"text": "Vision", "correct": false},
+            {"text": "Charles", "correct": false},
+            {"text": "Logan", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Avenger stammt aus den 1940er-Jahren und wurde im Eis eingefroren?",
+        "answers": [
+            {"text": "Ant-Man", "correct": false},
+            {"text": "Captain America", "correct": true},
+            {"text": "Hulk", "correct": false},
+            {"text": "Nick Fury", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet der Name des Metalls, das Wolverine seine unzerstörbaren Krallen verleiht?",
+        "answers": [
+            {"text": "Vibranium", "correct": false},
+            {"text": "Adamantium", "correct": true},
+            {"text": "Carbonadium", "correct": false},
+            {"text": "Uru", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Marvel-Figur war früher Arzt und wurde durch einen Unfall zum Sorcerer Supreme?",
+        "answers": [
+            {"text": "Doctor Strange", "correct": true},
+            {"text": "Moon Knight", "correct": false},
+            {"text": "Professor X", "correct": false},
+            {"text": "Reed Richards", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Organisation, die Nick Fury leitet?",
+        "answers": [
+            {"text": "S.W.O.R.D.", "correct": false},
+            {"text": "S.H.I.E.L.D.", "correct": true},
+            {"text": "A.I.M.", "correct": false},
+            {"text": "H.Y.D.R.A.", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Heldengruppe besteht aus Gamora, Rocket, Groot, Drax und Star-Lord?",
+        "answers": [
+            {"text": "Guardians of the Galaxy", "correct": true},
+            {"text": "Inhumans", "correct": false},
+            {"text": "Defenders", "correct": false},
+            {"text": "Eternals", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Antagonist, der in Black Panther den Thron von Wakanda beansprucht?",
+        "answers": [
+            {"text": "Klaw", "correct": false},
+            {"text": "Killmonger", "correct": true},
+            {"text": "Namor", "correct": false},
+            {"text": "Taskmaster", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Figur gründete die Avengers, um globale Bedrohungen zu bekämpfen?",
+        "answers": [
+            {"text": "Tony Stark", "correct": false},
+            {"text": "Nick Fury", "correct": true},
+            {"text": "Bruce Banner", "correct": false},
+            {"text": "Thor", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet der Name des Verbrecher-Syndikats, das Daredevil in Hell's Kitchen bekämpft?",
+        "answers": [
+            {"text": "Die Hand", "correct": true},
+            {"text": "Die Faust", "correct": false},
+            {"text": "Die Hydra", "correct": false},
+            {"text": "Die Klaue", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Avenger trägt einen Anzug, der ihn winzig klein oder riesig groß machen kann?",
+        "answers": [
+            {"text": "Ant-Man", "correct": true},
+            {"text": "Hawkeye", "correct": false},
+            {"text": "Vision", "correct": false},
+            {"text": "Falcon", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Superheldenduo besteht aus Geschwistern mit Magnetismus- und Realitätskräften?",
+        "answers": [
+            {"text": "Thor und Loki", "correct": false},
+            {"text": "Wanda und Pietro", "correct": true},
+            {"text": "Nebula und Gamora", "correct": false},
+            {"text": "T'Challa und Shuri", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Form von Hulk, in der Bruce Banner Intelligenz und Stärke vereint?",
+        "answers": [
+            {"text": "Maestro", "correct": false},
+            {"text": "Professor Hulk", "correct": true},
+            {"text": "Worldbreaker", "correct": false},
+            {"text": "Grey Hulk", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Marvel-Held erhält seine Kräfte durch eine Spinne aus einem Labor?",
+        "answers": [
+            {"text": "Spider-Man", "correct": true},
+            {"text": "Wolverine", "correct": false},
+            {"text": "Blade", "correct": false},
+            {"text": "Ghost Rider", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Erzfeind von Spider-Man, der durch einen missglückten Laborexperiment zum Grünen Kobold wurde?",
+        "answers": [
+            {"text": "Norman Osborn", "correct": true},
+            {"text": "Eddie Brock", "correct": false},
+            {"text": "Otto Octavius", "correct": false},
+            {"text": "Flint Marko", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Superheldin kann sich unsichtbar machen und Kraftfelder erzeugen?",
+        "answers": [
+            {"text": "Invisible Woman", "correct": true},
+            {"text": "Wasp", "correct": false},
+            {"text": "Jessica Jones", "correct": false},
+            {"text": "Gamora", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt das Metall, das Captain Americas Schild nahezu unzerstörbar macht?",
+        "answers": [
+            {"text": "Adamantium", "correct": false},
+            {"text": "Vibranium", "correct": true},
+            {"text": "Uru", "correct": false},
+            {"text": "Titanium", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Charakter wird durch Gammastrahlung zu einem grünen Kraftpaket?",
+        "answers": [
+            {"text": "Bruce Banner", "correct": true},
+            {"text": "Tony Stark", "correct": false},
+            {"text": "Stephen Strange", "correct": false},
+            {"text": "Scott Lang", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der König der Asen und Vater von Thor?",
+        "answers": [
+            {"text": "Laufey", "correct": false},
+            {"text": "Odin", "correct": true},
+            {"text": "Heimdall", "correct": false},
+            {"text": "Bor", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Heldin erhält durch ein Serum der Red Room Academy überragende Kampffähigkeiten?",
+        "answers": [
+            {"text": "Black Widow", "correct": true},
+            {"text": "Captain Carter", "correct": false},
+            {"text": "Gamora", "correct": false},
+            {"text": "Nebula", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt das geheime Gefängnis für Super-Schurken auf hoher See?",
+        "answers": [
+            {"text": "Die Triskelion", "correct": false},
+            {"text": "Der Raft", "correct": true},
+            {"text": "Project Pegasus", "correct": false},
+            {"text": "The Vault", "correct": false}
+        ]
+    },
+    {
+        "question": "Wer übernimmt in der Serie 'The Falcon and the Winter Soldier' den Titel Captain America?",
+        "answers": [
+            {"text": "Bucky Barnes", "correct": false},
+            {"text": "Sam Wilson", "correct": true},
+            {"text": "John Walker", "correct": false},
+            {"text": "James Rhodes", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Organisation, die von Loki als Tarnung benutzt wird, während er als DB Cooper auftritt?",
+        "answers": [
+            {"text": "Time Variance Authority", "correct": true},
+            {"text": "Strategic Homeland Division", "correct": false},
+            {"text": "Roxxon", "correct": false},
+            {"text": "S.W.O.R.D.", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Charakter trägt den Black Panther-Anzug nach T'Challas Verschwinden in Wakanda Forever?",
+        "answers": [
+            {"text": "Okoye", "correct": false},
+            {"text": "Shuri", "correct": true},
+            {"text": "Nakia", "correct": false},
+            {"text": "M'Baku", "correct": false}
+        ]
+    }
+]
