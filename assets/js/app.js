@@ -73,6 +73,7 @@ const calendarTitle = document.getElementById('calendar-title');
 const muteToggle = document.getElementById('mute-toggle');
 const volumeControl = document.getElementById('volume-control');
 const backgroundAudio = document.getElementById('background-audio');
+const loadingStatus = document.getElementById('loading-status');
 
 let users = {};
 let activeUser = null;
@@ -81,6 +82,17 @@ let assignedQuestions = [];
 let usedQuestions = new Map();
 let currentTrackIndex = 0;
 let isMuted = false;
+let dataReady = false;
+let dataLoadError = null;
+
+function setLoadingStatus(message, state = '') {
+    if (!loadingStatus) return;
+    loadingStatus.textContent = message;
+    loadingStatus.classList.remove('ready', 'error');
+    if (state) {
+        loadingStatus.classList.add(state);
+    }
+}
 
 function resizeCanvas() {
     matrixCanvas.width = window.innerWidth;
@@ -159,6 +171,9 @@ function shuffle(array) {
 
 async function loadUsers() {
     const response = await fetch('data/users.json');
+    if (!response.ok) {
+        throw new Error(`Benutzerdaten konnten nicht geladen werden (${response.status}).`);
+    }
     users = await response.json();
 }
 
@@ -166,10 +181,25 @@ async function loadQuestions() {
     const entries = Object.entries(QUESTION_FILES);
     const promises = entries.map(async ([category, path]) => {
         const response = await fetch(path);
+        if (!response.ok) {
+            throw new Error(`Fragen für ${category} konnten nicht geladen werden (${response.status}).`);
+        }
         const data = await response.json();
         questionPool[category] = data;
     });
     await Promise.all(promises);
+}
+
+async function preloadData() {
+    try {
+        await Promise.all([loadUsers(), loadQuestions()]);
+        dataReady = true;
+        setLoadingStatus('System bereit. Bitte Zugangsdaten eingeben.', 'ready');
+    } catch (error) {
+        dataLoadError = error;
+        console.error('Fehler beim Laden der Daten', error);
+        setLoadingStatus('Fehler beim Laden der Daten. Bitte lokalen Server verwenden und Seite neu laden.', 'error');
+    }
 }
 
 function getBalancedCategories(categories, count) {
@@ -340,6 +370,8 @@ async function initialise() {
 
     window.addEventListener('resize', resizeCanvas);
 
+    setLoadingStatus('Systeminitialisierung läuft …');
+    const preloadPromise = preloadData();
     await loadUsers();
     await loadQuestions();
 
@@ -349,10 +381,22 @@ async function initialise() {
         loginScreen.classList.remove('hidden');
         generateChallenge();
     }, INTRO_DURATION);
+
+    await preloadPromise;
 }
 
 async function handleLogin(event) {
     event.preventDefault();
+
+    if (dataLoadError) {
+        loginError.textContent = 'Daten konnten nicht geladen werden. Bitte Seite neu laden.';
+        return;
+    }
+
+    if (!dataReady) {
+        loginError.textContent = 'Daten werden noch geladen. Bitte einen Moment warten.';
+        return;
+    }
 
     const name = document.getElementById('name').value.trim();
     const birthdate = document.getElementById('birthdate').value;
