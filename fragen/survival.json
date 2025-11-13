@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Was ist die wichtigste Priorität, wenn man in der Wildnis ohne Ausrüstung überlebt?",
+        "answers": [
+            {"text": "Nahrung finden", "correct": false},
+            {"text": "Schutz vor Witterung", "correct": true},
+            {"text": "Werkzeuge bauen", "correct": false},
+            {"text": "Feuerholz sammeln", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie erkennt man in Mitteleuropa grob die Himmelsrichtungen mithilfe von Moos?",
+        "answers": [
+            {"text": "Moos wächst nur an Südhängen", "correct": false},
+            {"text": "Moos wächst eher an der Nordseite von Bäumen", "correct": true},
+            {"text": "Moos zeigt immer nach Osten", "correct": false},
+            {"text": "Moos wächst gleichmäßig", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Reihenfolge beschreibt die Survival-Regel der 3?",
+        "answers": [
+            {"text": "3 Tage ohne Wasser, 3 Wochen ohne Luft", "correct": false},
+            {"text": "3 Minuten ohne Luft, 3 Stunden ohne Schutz, 3 Tage ohne Wasser", "correct": true},
+            {"text": "3 Stunden ohne Nahrung, 3 Tage ohne Schlaf", "correct": false},
+            {"text": "3 Sekunden ohne Schutz, 3 Tage ohne Nahrung", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Knotentechnik eignet sich besonders, um ein Seil an einem Baum zu befestigen und später leicht zu lösen?",
+        "answers": [
+            {"text": "Palstek", "correct": true},
+            {"text": "Schotstek", "correct": false},
+            {"text": "Doppelter Überhandknoten", "correct": false},
+            {"text": "Gordischer Knoten", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Wasserquelle ist in der Natur meist am sichersten trinkbar, wenn man sie abkocht?",
+        "answers": [
+            {"text": "Stehende Pfütze", "correct": false},
+            {"text": "Fließender Bach", "correct": true},
+            {"text": "Sumpf", "correct": false},
+            {"text": "See mit Algen", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie kann man ohne Kompass die Nordrichtung nachts bestimmen?",
+        "answers": [
+            {"text": "An der hellsten Sternschnuppe", "correct": false},
+            {"text": "An der Position des Polarsterns", "correct": true},
+            {"text": "Am Mondaufgang", "correct": false},
+            {"text": "An der Milchstraße", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Material eignet sich als Zunder, um Funken leicht zu entzünden?",
+        "answers": [
+            {"text": "Nasse Blätter", "correct": false},
+            {"text": "Birkenrinde", "correct": true},
+            {"text": "Grüne Zweige", "correct": false},
+            {"text": "Frische Gräser", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Methode eignet sich, um Wasser ohne Kochtopf abzukochen?",
+        "answers": [
+            {"text": "Steine erhitzen und ins Wasser legen", "correct": true},
+            {"text": "Wasser über das Feuer halten", "correct": false},
+            {"text": "Sonnenlicht konzentrieren", "correct": false},
+            {"text": "Schnee hinzufügen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Hinweis deutet auf einen essbaren Pilz hin?",
+        "answers": [
+            {"text": "Er riecht angenehm", "correct": false},
+            {"text": "Er sieht wie ein Champignon aus", "correct": false},
+            {"text": "Er wurde eindeutig bestimmt", "correct": true},
+            {"text": "Er wächst auf einem Baum", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche improvisierte Methode hilft, ohne Streichhölzer Feuer zu machen?",
+        "answers": [
+            {"text": "Hände reiben", "correct": false},
+            {"text": "Feuerbohren mit Bogen", "correct": true},
+            {"text": "Mit Steinen werfen", "correct": false},
+            {"text": "Lehm mischen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Kleidungsschichten sorgen für ein gutes Temperaturmanagement?",
+        "answers": [
+            {"text": "Baumwollshirt und Regenjacke", "correct": false},
+            {"text": "Zwiebelschicht-System", "correct": true},
+            {"text": "Nur Daunenjacke", "correct": false},
+            {"text": "Nur Fleece", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Notfall-Signalregel gibt es in den Alpen für Hubschrauber?",
+        "answers": [
+            {"text": "Sechs Zeichen pro Minute senden", "correct": true},
+            {"text": "Drei Zeichen pro Minute senden", "correct": false},
+            {"text": "Fünf Zeichen pro Minute senden", "correct": false},
+            {"text": "Acht Zeichen pro Minute senden", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Beeren sollte man grundsätzlich meiden, wenn man sie nicht eindeutig erkennt?",
+        "answers": [
+            {"text": "Rote Beeren", "correct": false},
+            {"text": "Alle unbekannten Beeren", "correct": true},
+            {"text": "Schwarze Beeren", "correct": false},
+            {"text": "Blaue Beeren", "correct": false}
+        ]
+    },
+    {
+        "question": "Warum sollte man nachts nicht direkt auf dem Boden schlafen?",
+        "answers": [
+            {"text": "Der Boden ist zu hart", "correct": false},
+            {"text": "Bodenkälte entzieht dem Körper Energie", "correct": true},
+            {"text": "Man verliert Orientierung", "correct": false},
+            {"text": "Tiere finden einen leichter", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche einfache Sonnenuhr kann man improvisieren, um die Zeit grob einzuschätzen?",
+        "answers": [
+            {"text": "Stein auf Baumstumpf legen", "correct": false},
+            {"text": "Stab in den Boden stecken und Schatten beobachten", "correct": true},
+            {"text": "Blätter auf den Boden legen", "correct": false},
+            {"text": "Sandkreis ziehen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Orientierungsmethode nutzt man bei Nebel, wenn keine Sichtpunkte vorhanden sind?",
+        "answers": [
+            {"text": "Man folgt dem Bauchgefühl", "correct": false},
+            {"text": "Man orientiert sich am Wind und nutzt Kompass oder Karte", "correct": true},
+            {"text": "Man geht einfach bergab", "correct": false},
+            {"text": "Man bleibt stehen und wartet", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Grundsatz gilt beim Bau eines Notunterstands?",
+        "answers": [
+            {"text": "So hoch wie möglich bauen", "correct": false},
+            {"text": "Klein und windgeschützt halten", "correct": true},
+            {"text": "Große Fenster einbauen", "correct": false},
+            {"text": "Mit Metall verstärken", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Schichten sollten ein improvisierter Wasserfilter haben?",
+        "answers": [
+            {"text": "Eine Schicht Sand", "correct": false},
+            {"text": "Mehrere Schichten aus Kies, Sand und Kohle", "correct": true},
+            {"text": "Nur Moos", "correct": false},
+            {"text": "Nur Erde", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Signalfarbe ist international als Notfallzeichen anerkannt?",
+        "answers": [
+            {"text": "Blau", "correct": false},
+            {"text": "Rot", "correct": false},
+            {"text": "Orange", "correct": true},
+            {"text": "Grün", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Symptom deutet auf eine Unterkühlung hin?",
+        "answers": [
+            {"text": "Heiße Hände", "correct": false},
+            {"text": "Kältezittern und Verwirrtheit", "correct": true},
+            {"text": "Hoher Puls", "correct": false},
+            {"text": "Durst", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie verhindert man Blasen an den Füßen bei langen Märschen am besten?",
+        "answers": [
+            {"text": "Barfuß laufen", "correct": false},
+            {"text": "Gute Socken und passende Schuhe", "correct": true},
+            {"text": "Pflaster vorher aufkleben", "correct": false},
+            {"text": "Schuhe locker binden", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Naturmaterial eignet sich zum Bau eines improvisierten Wasserbehälters?",
+        "answers": [
+            {"text": "Frischer Lehm", "correct": false},
+            {"text": "Große Rinde oder Birkenrinde", "correct": true},
+            {"text": "Trockener Sand", "correct": false},
+            {"text": "Kleine Äste", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Zeichenfolge bedeutet SOS im Morsealphabet?",
+        "answers": [
+            {"text": "Lang-Kurz-Lang", "correct": false},
+            {"text": "Kurz-Kurz-Kurz, Lang-Lang-Lang, Kurz-Kurz-Kurz", "correct": true},
+            {"text": "Lang-Lang-Lang", "correct": false},
+            {"text": "Kurz-Lang-Kurz", "correct": false}
+        ]
+    },
+    {
+        "question": "Was sollte man tun, wenn man sich verirrt und keine Orientierung findet?",
+        "answers": [
+            {"text": "Sofort losrennen", "correct": false},
+            {"text": "Am letzten bekannten Ort bleiben und Signal geben", "correct": true},
+            {"text": "Einen Hügel hinunterlaufen", "correct": false},
+            {"text": "Einfach weitergehen", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie erkennt man, ob Wasser durch Tiere kontaminiert sein könnte?",
+        "answers": [
+            {"text": "Es riecht süßlich", "correct": false},
+            {"text": "Tierpfade oder Spuren führen zur Quelle", "correct": true},
+            {"text": "Es ist sehr klar", "correct": false},
+            {"text": "Es ist kalt", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche einfache Vorrichtung hilft, Regenwasser aufzufangen?",
+        "answers": [
+            {"text": "Ein Loch graben", "correct": false},
+            {"text": "Eine Plane oder große Blätter spannen", "correct": true},
+            {"text": "Felsen polieren", "correct": false},
+            {"text": "Feuer machen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Tier sollte man in Mitteleuropa auf keinen Fall füttern, um es nicht anzulocken?",
+        "answers": [
+            {"text": "Rehe", "correct": false},
+            {"text": "Wildschweine", "correct": true},
+            {"text": "Eichhörnchen", "correct": false},
+            {"text": "Singvögel", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Notfallnummer gilt europaweit?",
+        "answers": [
+            {"text": "144", "correct": false},
+            {"text": "112", "correct": true},
+            {"text": "119", "correct": false},
+            {"text": "911", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie kann man ohne Streichhölzer eine Kerze entzünden, wenn man eine Batterie hat?",
+        "answers": [
+            {"text": "Batterie in Wasser legen", "correct": false},
+            {"text": "Batteriepol mit Stahlwolle überbrücken", "correct": true},
+            {"text": "Batterie an den Mund halten", "correct": false},
+            {"text": "Batterie im Sand reiben", "correct": false}
+        ]
+    },
+    {
+        "question": "Was sollte man beim Bau eines Lagerfeuers zuerst vorbereiten?",
+        "answers": [
+            {"text": "Große Baumstämme", "correct": false},
+            {"text": "Eine sichere Feuerstelle und trockenen Zunder", "correct": true},
+            {"text": "Einen Windschutz aus Plastik", "correct": false},
+            {"text": "Einen Wasserkanister", "correct": false}
+        ]
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Wie lautet Sheldons vollständiger Name in 'The Big Bang Theory'?",
+        "answers": [
+            {"text": "Sheldon Lee Cooper", "correct": true},
+            {"text": "Sheldon James Cooper", "correct": false},
+            {"text": "Sheldon George Cooper", "correct": false},
+            {"text": "Sheldon Arthur Cooper", "correct": false}
+        ]
+    },
+    {
+        "question": "Aus welcher Stadt stammt Sheldon ursprünglich?",
+        "answers": [
+            {"text": "Austin, Texas", "correct": false},
+            {"text": "Galveston, Texas", "correct": false},
+            {"text": "Houston, Texas", "correct": false},
+            {"text": "Galveston County, genauer Medford", "correct": true}
+        ]
+    },
+    {
+        "question": "Welche akademischen Abschlüsse besitzt Sheldon mit 14 Jahren bereits?",
+        "answers": [
+            {"text": "Bachelor und Master", "correct": true},
+            {"text": "Nur Bachelor", "correct": false},
+            {"text": "Master und Doktor", "correct": false},
+            {"text": "Keinen Abschluss", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet Sheldons Lieblingsspruch, wenn er einen Streich spielt?",
+        "answers": [
+            {"text": "Bazinga!", "correct": true},
+            {"text": "Gotcha!", "correct": false},
+            {"text": "Ha!", "correct": false},
+            {"text": "Genius!", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Instrument spielt Sheldon?",
+        "answers": [
+            {"text": "Violine", "correct": false},
+            {"text": "Theremin", "correct": true},
+            {"text": "Klavier", "correct": false},
+            {"text": "Saxofon", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Serie schaut Sheldon am liebsten als Kind?",
+        "answers": [
+            {"text": "Doctor Who", "correct": false},
+            {"text": "Star Trek", "correct": true},
+            {"text": "Battlestar Galactica", "correct": false},
+            {"text": "Firefly", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt Sheldons Mutter?",
+        "answers": [
+            {"text": "Mary Cooper", "correct": true},
+            {"text": "Martha Cooper", "correct": false},
+            {"text": "Marie Cooper", "correct": false},
+            {"text": "Megan Cooper", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Sitzgewohnheit hat Sheldon im Wohnzimmer?",
+        "answers": [
+            {"text": "Er sitzt immer am Schreibtisch", "correct": false},
+            {"text": "Er besteht auf seinem Platz auf dem Sofa", "correct": true},
+            {"text": "Er steht lieber", "correct": false},
+            {"text": "Er sitzt auf dem Boden", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Spiel spielt Sheldon besonders gern mit seinen Freunden?",
+        "answers": [
+            {"text": "Monopoly", "correct": false},
+            {"text": "3D-Schach", "correct": false},
+            {"text": "Klingonisches Boggle", "correct": true},
+            {"text": "Poker", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche wissenschaftliche Disziplin ist Sheldons Spezialgebiet?",
+        "answers": [
+            {"text": "Astrophysik", "correct": false},
+            {"text": "Theoretische Physik", "correct": true},
+            {"text": "Chemie", "correct": false},
+            {"text": "Biologie", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt Sheldons Mitbewohner zu Beginn der Serie?",
+        "answers": [
+            {"text": "Howard Wolowitz", "correct": false},
+            {"text": "Raj Koothrappali", "correct": false},
+            {"text": "Leonard Hofstadter", "correct": true},
+            {"text": "Stuart Bloom", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Allergie hat Sheldon, die oft erwähnt wird?",
+        "answers": [
+            {"text": "Erdnussallergie", "correct": false},
+            {"text": "Laktoseintoleranz", "correct": false},
+            {"text": "Er reagiert stark auf Katzenhaar", "correct": true},
+            {"text": "Glutenunverträglichkeit", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Doktortitel hat Sheldon?",
+        "answers": [
+            {"text": "Einen", "correct": false},
+            {"text": "Zwei", "correct": true},
+            {"text": "Drei", "correct": false},
+            {"text": "Keinen", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Essgewohnheit pflegt Sheldon montags?",
+        "answers": [
+            {"text": "Chinese Takeout", "correct": false},
+            {"text": "Cheeseburger", "correct": false},
+            {"text": "Thai-Food", "correct": false},
+            {"text": "Spaghetti mit Hot Dogs", "correct": true}
+        ]
+    },
+    {
+        "question": "Welchen Beruf übt Sheldons Vater aus?",
+        "answers": [
+            {"text": "Biologe", "correct": false},
+            {"text": "Football-Coach", "correct": true},
+            {"text": "Astronom", "correct": false},
+            {"text": "Ingenieur", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt Sheldon seinen Freundeskreis gern humorvoll?",
+        "answers": [
+            {"text": "Die Genies", "correct": false},
+            {"text": "Die Nerd-Herde", "correct": true},
+            {"text": "Die Physik-Piraten", "correct": false},
+            {"text": "Das Kooperationskollektiv", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Figur aus 'Star Trek' imitiert Sheldon häufig?",
+        "answers": [
+            {"text": "James T. Kirk", "correct": false},
+            {"text": "Spock", "correct": true},
+            {"text": "Scotty", "correct": false},
+            {"text": "Data", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt Sheldons Freundin und spätere Ehefrau?",
+        "answers": [
+            {"text": "Penny", "correct": false},
+            {"text": "Amy Farrah Fowler", "correct": true},
+            {"text": "Bernadette Rostenkowski", "correct": false},
+            {"text": "Leslie Winkle", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Brettspiel erfindet Sheldon, das extrem kompliziert ist?",
+        "answers": [
+            {"text": "Traumfresser", "correct": false},
+            {"text": "Meister des überragenden Geistes", "correct": false},
+            {"text": "Mystic Warlords of Ka'a", "correct": true},
+            {"text": "Quantenrisiko", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche religiöse Ausrichtung hat Sheldons Mutter?",
+        "answers": [
+            {"text": "Sie ist streng baptistisch", "correct": true},
+            {"text": "Sie ist katholisch", "correct": false},
+            {"text": "Sie ist jüdisch", "correct": false},
+            {"text": "Sie ist buddhistisch", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet Sheldons Lieblingszahl, weil sie besondere Eigenschaften hat?",
+        "answers": [
+            {"text": "73", "correct": true},
+            {"text": "42", "correct": false},
+            {"text": "137", "correct": false},
+            {"text": "108", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Superheldengruppe fasziniert Sheldon besonders?",
+        "answers": [
+            {"text": "Justice League", "correct": true},
+            {"text": "Fantastic Four", "correct": false},
+            {"text": "Guardians of the Galaxy", "correct": false},
+            {"text": "Suicide Squad", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt das Ritual, das Sheldon und Leonard durchführen, um Streit zu schlichten?",
+        "answers": [
+            {"text": "Vertragsverhandlung", "correct": false},
+            {"text": "Mitbewohner-Abkommen", "correct": true},
+            {"text": "Freundschaftsformel", "correct": false},
+            {"text": "Würfelwurf", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Universität lehnt Sheldons Bewerbung als Kind ab?",
+        "answers": [
+            {"text": "MIT", "correct": false},
+            {"text": "Caltech", "correct": false},
+            {"text": "Harvard", "correct": false},
+            {"text": "Princeton", "correct": true}
+        ]
+    },
+    {
+        "question": "Welche Theorie versucht Sheldon jahrelang zu beweisen?",
+        "answers": [
+            {"text": "Stringtheorie", "correct": true},
+            {"text": "Relativitätstheorie", "correct": false},
+            {"text": "Quantenchromodynamik", "correct": false},
+            {"text": "Chaos-Theorie", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Erkrankung vermutet Sheldon ständig bei sich?",
+        "answers": [
+            {"text": "Common Cold", "correct": false},
+            {"text": "Hypochondrie", "correct": true},
+            {"text": "Diabetes", "correct": false},
+            {"text": "Migräne", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Comic-Buchhandlung besucht Sheldon regelmäßig?",
+        "answers": [
+            {"text": "Golden Apple", "correct": false},
+            {"text": "Stuarts Comic Center", "correct": true},
+            {"text": "Comic Planet", "correct": false},
+            {"text": "Geek Heaven", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Auszeichnung erhält Sheldon am Ende der Serie?",
+        "answers": [
+            {"text": "Fields-Medaille", "correct": false},
+            {"text": "Nobelpreis für Physik", "correct": true},
+            {"text": "Wolf-Preis", "correct": false},
+            {"text": "Breakthrough Prize", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Sprachen spricht Sheldon fließend?",
+        "answers": [
+            {"text": "Englisch und Klingonisch", "correct": true},
+            {"text": "Englisch und Französisch", "correct": false},
+            {"text": "Deutsch und Englisch", "correct": false},
+            {"text": "Spanisch und Englisch", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt Sheldons Vertrag mit Penny?",
+        "answers": [
+            {"text": "Nachbarschaftsabkommen", "correct": true},
+            {"text": "Freundschaftspakt", "correct": false},
+            {"text": "Sicherheitsvertrag", "correct": false},
+            {"text": "Sitzplatzvereinbarung", "correct": false}
+        ]
+    }
+]

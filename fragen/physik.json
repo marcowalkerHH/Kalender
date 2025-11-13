@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Welche Einheit hat die Geschwindigkeit im internationalen Einheitensystem?",
+        "answers": [
+            {"text": "Meter pro Sekunde", "correct": true},
+            {"text": "Newton", "correct": false},
+            {"text": "Joule", "correct": false},
+            {"text": "Watt", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie berechnet man die Dichte eines Körpers?",
+        "answers": [
+            {"text": "Masse geteilt durch Volumen", "correct": true},
+            {"text": "Volumen geteilt durch Masse", "correct": false},
+            {"text": "Kraft geteilt durch Fläche", "correct": false},
+            {"text": "Weg multipliziert mit Zeit", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Kraft wirkt einer Bewegung entgegen und entsteht durch raue Oberflächen?",
+        "answers": [
+            {"text": "Magnetkraft", "correct": false},
+            {"text": "Reibungskraft", "correct": true},
+            {"text": "Zentripetalkraft", "correct": false},
+            {"text": "Auftriebskraft", "correct": false}
+        ]
+    },
+    {
+        "question": "Was besagt das dritte Newtonsche Gesetz?",
+        "answers": [
+            {"text": "Kraft ist Masse mal Beschleunigung", "correct": false},
+            {"text": "Kräfte treten paarweise als Aktion und Reaktion auf", "correct": true},
+            {"text": "Ein Körper verharrt in Ruhe", "correct": false},
+            {"text": "Energie bleibt erhalten", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist die Fallbeschleunigung g auf der Erde ungefähr?",
+        "answers": [
+            {"text": "3,8 m/s²", "correct": false},
+            {"text": "9,81 m/s²", "correct": true},
+            {"text": "15 m/s²", "correct": false},
+            {"text": "1,62 m/s²", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Messgerät benutzt man, um die elektrische Spannung zu messen?",
+        "answers": [
+            {"text": "Amperemeter", "correct": false},
+            {"text": "Voltmeter", "correct": true},
+            {"text": "Ohmmeter", "correct": false},
+            {"text": "Thermometer", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Energieform besitzt ein gehobenes Gewicht?",
+        "answers": [
+            {"text": "Elektrische Energie", "correct": false},
+            {"text": "Potentielle Lageenergie", "correct": true},
+            {"text": "Chemische Energie", "correct": false},
+            {"text": "Kernenergie", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet das Ohmsche Gesetz in Worten?",
+        "answers": [
+            {"text": "Spannung gleich Widerstand mal Stromstärke", "correct": true},
+            {"text": "Leistung gleich Spannung mal Zeit", "correct": false},
+            {"text": "Kraft gleich Masse mal Beschleunigung", "correct": false},
+            {"text": "Arbeit gleich Weg mal Zeit", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Eigenschaft einer Linse beschreibt die Brechkraft?",
+        "answers": [
+            {"text": "Wie stark sie Licht bündelt", "correct": true},
+            {"text": "Wie groß sie ist", "correct": false},
+            {"text": "Wie schwer sie ist", "correct": false},
+            {"text": "Wie warm sie wird", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Energieform entsteht beim Durchfluss von Strom durch einen Widerstand?",
+        "answers": [
+            {"text": "Mechanische Energie", "correct": false},
+            {"text": "Wärmeenergie", "correct": true},
+            {"text": "Kinetische Energie", "correct": false},
+            {"text": "Strahlungsenergie", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Einheit besitzt die elektrische Leistung?",
+        "answers": [
+            {"text": "Volt", "correct": false},
+            {"text": "Watt", "correct": true},
+            {"text": "Ampere", "correct": false},
+            {"text": "Ohm", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man den Wechsel von flüssig zu gasförmig, der unterhalb des Siedepunkts stattfindet?",
+        "answers": [
+            {"text": "Sieden", "correct": false},
+            {"text": "Verdunsten", "correct": true},
+            {"text": "Sublimieren", "correct": false},
+            {"text": "Resublimieren", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Teilchen trägt die negative Ladung im Atom?",
+        "answers": [
+            {"text": "Proton", "correct": false},
+            {"text": "Elektron", "correct": true},
+            {"text": "Neutron", "correct": false},
+            {"text": "Photon", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Kraft, die einen Körper in einer Kreisbahn hält?",
+        "answers": [
+            {"text": "Fliehkraft", "correct": false},
+            {"text": "Zentripetalkraft", "correct": true},
+            {"text": "Gewichtskraft", "correct": false},
+            {"text": "Gravitationskraft", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Energie, die in einem gespannten Gummiband gespeichert ist?",
+        "answers": [
+            {"text": "Chemische Energie", "correct": false},
+            {"text": "Elastische Spannenergie", "correct": true},
+            {"text": "Thermische Energie", "correct": false},
+            {"text": "Kernenergie", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie berechnet man die durchschnittliche Geschwindigkeit?",
+        "answers": [
+            {"text": "Zeit geteilt durch Strecke", "correct": false},
+            {"text": "Strecke geteilt durch Zeit", "correct": true},
+            {"text": "Strecke mal Zeit", "correct": false},
+            {"text": "Zeit minus Strecke", "correct": false}
+        ]
+    },
+    {
+        "question": "Was beschreibt die Frequenz einer Welle?",
+        "answers": [
+            {"text": "Die Anzahl der Schwingungen pro Sekunde", "correct": true},
+            {"text": "Die Geschwindigkeit der Welle", "correct": false},
+            {"text": "Die Höhe der Welle", "correct": false},
+            {"text": "Die Richtung der Welle", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Strahlung hat die kürzeste Wellenlänge?",
+        "answers": [
+            {"text": "Radiowellen", "correct": false},
+            {"text": "Ultraviolett", "correct": false},
+            {"text": "Gammastrahlen", "correct": true},
+            {"text": "Infrarot", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Größe ist das Produkt aus Kraft und Weg?",
+        "answers": [
+            {"text": "Leistung", "correct": false},
+            {"text": "Arbeit", "correct": true},
+            {"text": "Energie", "correct": false},
+            {"text": "Impuls", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Einheit hat der elektrische Widerstand?",
+        "answers": [
+            {"text": "Ampere", "correct": false},
+            {"text": "Ohm", "correct": true},
+            {"text": "Volt", "correct": false},
+            {"text": "Tesla", "correct": false}
+        ]
+    },
+    {
+        "question": "Was passiert mit einem Lichtstrahl, wenn er von Luft in Glas übergeht?",
+        "answers": [
+            {"text": "Er wird beschleunigt", "correct": false},
+            {"text": "Er wird zur Normalen hin gebrochen", "correct": true},
+            {"text": "Er wird reflektiert", "correct": false},
+            {"text": "Er bleibt unverändert", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Größe beschreibt, wie viel elektrische Ladung pro Zeit transportiert wird?",
+        "answers": [
+            {"text": "Spannung", "correct": false},
+            {"text": "Stromstärke", "correct": true},
+            {"text": "Widerstand", "correct": false},
+            {"text": "Kapazität", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man die Kraft, die auf einen Körper wirkt, der in einer Flüssigkeit schwimmt?",
+        "answers": [
+            {"text": "Magnetkraft", "correct": false},
+            {"text": "Auftriebskraft", "correct": true},
+            {"text": "Schwerkraft", "correct": false},
+            {"text": "Trägheitskraft", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Formel für die kinetische Energie?",
+        "answers": [
+            {"text": "E = m * g", "correct": false},
+            {"text": "E = 1/2 * m * v²", "correct": true},
+            {"text": "E = m * v", "correct": false},
+            {"text": "E = m / v", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Aggregatzustand liegt vor, wenn Teilchen fest angeordnet, aber gegeneinander beweglich sind?",
+        "answers": [
+            {"text": "Fest", "correct": false},
+            {"text": "Flüssig", "correct": true},
+            {"text": "Gasförmig", "correct": false},
+            {"text": "Plasma", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche physikalische Größe bleibt in einem geschlossenen System erhalten?",
+        "answers": [
+            {"text": "Energie", "correct": true},
+            {"text": "Leistung", "correct": false},
+            {"text": "Volumen", "correct": false},
+            {"text": "Leitfähigkeit", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Farbe des sichtbaren Lichts hat die größte Wellenlänge?",
+        "answers": [
+            {"text": "Blau", "correct": false},
+            {"text": "Rot", "correct": true},
+            {"text": "Grün", "correct": false},
+            {"text": "Violett", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man den Übergang vom festen in den gasförmigen Zustand ohne den flüssigen zu durchlaufen?",
+        "answers": [
+            {"text": "Verdampfen", "correct": false},
+            {"text": "Sublimieren", "correct": true},
+            {"text": "Gefrieren", "correct": false},
+            {"text": "Kondensieren", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche physikalische Größe beschreibt den Druck?",
+        "answers": [
+            {"text": "Kraft pro Fläche", "correct": true},
+            {"text": "Energie pro Zeit", "correct": false},
+            {"text": "Masse pro Volumen", "correct": false},
+            {"text": "Weg pro Zeit", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie nennt man das Trägheitsgesetz auch?",
+        "answers": [
+            {"text": "Erstes Newtonsches Gesetz", "correct": true},
+            {"text": "Zweites Newtonsches Gesetz", "correct": false},
+            {"text": "Drittes Newtonsches Gesetz", "correct": false},
+            {"text": "Erstes Coulombsches Gesetz", "correct": false}
+        ]
+    }
+]

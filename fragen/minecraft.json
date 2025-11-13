@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Wie viele Holzplanken erhält man aus einem Holzblock?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Spitzhacke benötigt man mindestens, um Diamanterz abzubauen?",
+        "answers": [
+            {"text": "Steinspitzhacke", "correct": false},
+            {"text": "Eisenspitzhacke", "correct": true},
+            {"text": "Goldspitzhacke", "correct": false},
+            {"text": "Holzspitzhacke", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Kreatur explodiert, wenn sie dem Spieler zu nahe kommt?",
+        "answers": [
+            {"text": "Zombie", "correct": false},
+            {"text": "Creeper", "correct": true},
+            {"text": "Enderman", "correct": false},
+            {"text": "Spinne", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Obsidianblöcke benötigt man mindestens für ein Netherportal?",
+        "answers": [
+            {"text": "8", "correct": false},
+            {"text": "10", "correct": true},
+            {"text": "12", "correct": false},
+            {"text": "14", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Trank verleiht Feuerresistenz?",
+        "answers": [
+            {"text": "Trank der Regeneration", "correct": false},
+            {"text": "Trank der Feuerresistenz", "correct": true},
+            {"text": "Trank der Unsichtbarkeit", "correct": false},
+            {"text": "Trank der Schnelligkeit", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Nahrung füllt den Hungerbalken am meisten auf?",
+        "answers": [
+            {"text": "Kartoffel", "correct": false},
+            {"text": "Steak", "correct": true},
+            {"text": "Brot", "correct": false},
+            {"text": "Apfel", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Herzen Schaden verursacht ein kritischer Schwerttreffer mit Diamantschwert ohne Rüstung?",
+        "answers": [
+            {"text": "4", "correct": false},
+            {"text": "7", "correct": true},
+            {"text": "9", "correct": false},
+            {"text": "10", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Kreatur droppt Enderperlen?",
+        "answers": [
+            {"text": "Ghast", "correct": false},
+            {"text": "Enderman", "correct": true},
+            {"text": "Blaze", "correct": false},
+            {"text": "Wither-Skelett", "correct": false}
+        ]
+    },
+    {
+        "question": "Welchen Gegenstand benötigt man, um einen Dorfbewohner zum Bibliothekar zu machen?",
+        "answers": [
+            {"text": "Amboss", "correct": false},
+            {"text": "Leseecke", "correct": false},
+            {"text": "Schreibtisch", "correct": false},
+            {"text": "Lesepult", "correct": true}
+        ]
+    },
+    {
+        "question": "Wie viele Blöcke hoch kann ein Spieler ohne Schaden fallen, wenn er vollständig geheilt ist?",
+        "answers": [
+            {"text": "3", "correct": false},
+            {"text": "4", "correct": false},
+            {"text": "5", "correct": false},
+            {"text": "3 Blöcke ohne Schaden, ab 4 beginnt Fallschaden", "correct": true}
+        ]
+    },
+    {
+        "question": "Welche Kreatur kann den Spieler vergiften?",
+        "answers": [
+            {"text": "Höhlenspinne", "correct": true},
+            {"text": "Schaf", "correct": false},
+            {"text": "Schleim", "correct": false},
+            {"text": "Schwein", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt die Dimension, in der der Enderdrache lebt?",
+        "answers": [
+            {"text": "Nether", "correct": false},
+            {"text": "End", "correct": true},
+            {"text": "Zwischenwelt", "correct": false},
+            {"text": "Overworld", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Ressource benötigt man, um einen Verzauberungstisch herzustellen?",
+        "answers": [
+            {"text": "4 Obsidian, 2 Diamanten, 1 Buch", "correct": true},
+            {"text": "3 Obsidian, 1 Diamant, 1 Buch", "correct": false},
+            {"text": "5 Obsidian, 2 Diamanten", "correct": false},
+            {"text": "4 Obsidian, 1 Smaragd", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Auswirkung hat ein Bienenstich ohne Rüstung?",
+        "answers": [
+            {"text": "Sofortiger Tod", "correct": false},
+            {"text": "Vergiftung für kurze Zeit", "correct": true},
+            {"text": "Langsame Wirkung", "correct": false},
+            {"text": "Keine", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Redstone-Komponente verlängert Signale?",
+        "answers": [
+            {"text": "Redstone-Fackel", "correct": false},
+            {"text": "Redstone-Repeater", "correct": true},
+            {"text": "Trichter", "correct": false},
+            {"text": "Kolben", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Effekt wirkt gegen Wither-Schaden?",
+        "answers": [
+            {"text": "Feuerresistenz", "correct": false},
+            {"text": "Regeneration", "correct": true},
+            {"text": "Wasseratmung", "correct": false},
+            {"text": "Sprungkraft", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Pflanze benötigt man, um einen Spionagetrank zu brauen?",
+        "answers": [
+            {"text": "Spinnenauge", "correct": true},
+            {"text": "Glasflasche", "correct": false},
+            {"text": "Netherwarze", "correct": false},
+            {"text": "Kakaobohne", "correct": false}
+        ]
+    },
+    {
+        "question": "Was ist die maximale Anzahl Stapel im Inventar eines Spielers für einen Gegenstand?",
+        "answers": [
+            {"text": "32", "correct": false},
+            {"text": "64", "correct": true},
+            {"text": "96", "correct": false},
+            {"text": "99", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Funktion hat ein Amboss?",
+        "answers": [
+            {"text": "Blöcke zertrümmern", "correct": false},
+            {"text": "Gegenstände reparieren und benennen", "correct": true},
+            {"text": "Redstone-Signale verstärken", "correct": false},
+            {"text": "Tiere zähmen", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Erfahrungspunkte erhält man ungefähr durch das Schmelzen eines Eisenerzes im Ofen?",
+        "answers": [
+            {"text": "0", "correct": false},
+            {"text": "0,7 XP", "correct": true},
+            {"text": "2 XP", "correct": false},
+            {"text": "5 XP", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Block lässt Wasser nicht durch, obwohl er transparent wirkt?",
+        "answers": [
+            {"text": "Glas", "correct": true},
+            {"text": "Laub", "correct": false},
+            {"text": "Blumen", "correct": false},
+            {"text": "Fackeln", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Rüstung bietet den besten Schutz?",
+        "answers": [
+            {"text": "Diamantrüstung", "correct": false},
+            {"text": "Netherit-Rüstung", "correct": true},
+            {"text": "Eisenrüstung", "correct": false},
+            {"text": "Kettenrüstung", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Tier kann man mit Karotten vermehren?",
+        "answers": [
+            {"text": "Schweine", "correct": true},
+            {"text": "Schafe", "correct": false},
+            {"text": "Kühe", "correct": false},
+            {"text": "Hühner", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Struktur findet man im Nether und enthält Netherwarzen?",
+        "answers": [
+            {"text": "Bastion", "correct": false},
+            {"text": "Netherfestung", "correct": true},
+            {"text": "Schiffswrack", "correct": false},
+            {"text": "Dschungeltempel", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Musikplatte erhält man, wenn ein Skelett einen Creeper tötet?",
+        "answers": [
+            {"text": "13 oder Cat", "correct": true},
+            {"text": "Blocks", "correct": false},
+            {"text": "Mellohi", "correct": false},
+            {"text": "Chirp", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Werkzeug nutzt man, um schneller Kürbisse zu ernten?",
+        "answers": [
+            {"text": "Axt", "correct": true},
+            {"text": "Schwert", "correct": false},
+            {"text": "Spitzhacke", "correct": false},
+            {"text": "Schaufel", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Wirkung hat ein Leuchtfeuer (Beacon) mit Eisenblock-Pyramide Stufe 1?",
+        "answers": [
+            {"text": "Schnelligkeit oder Eile", "correct": true},
+            {"text": "Sprungkraft II", "correct": false},
+            {"text": "Resistenz", "correct": false},
+            {"text": "Regeneration II", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie erhält man Spähe (Spyglass) in Minecraft?",
+        "answers": [
+            {"text": "Aus Kupferbarren und Amethystsplitter craften", "correct": true},
+            {"text": "Bei Dorfbewohnern kaufen", "correct": false},
+            {"text": "Aus Smaragden schmelzen", "correct": false},
+            {"text": "In Minenschächten finden", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Kreatur erscheint nur, wenn der Spieler lange nicht geschlafen hat?",
+        "answers": [
+            {"text": "Phantom", "correct": true},
+            {"text": "Hexe", "correct": false},
+            {"text": "Ertrunkener", "correct": false},
+            {"text": "Hoglin", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Augen der Ender benötigt man, um ein Endportal zu aktivieren?",
+        "answers": [
+            {"text": "8", "correct": false},
+            {"text": "10", "correct": false},
+            {"text": "12", "correct": true},
+            {"text": "14", "correct": false}
+        ]
+    }
+]
