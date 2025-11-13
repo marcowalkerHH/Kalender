@@ -1,11 +1,13 @@
 {
     "Noah": {
         "birthdate": "2012-06-19",
+        "accessCode": "1906",
         "calendarTitle": "NOAHSKALENDER",
         "categories": [
             "Marvel",
             "Fortnite",
             "Woodwalkers",
+            "Woodworkers",
             "Survival",
             "Physik",
             "Mathematik",
