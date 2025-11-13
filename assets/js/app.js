@@ -372,6 +372,8 @@ async function handleLogin(event) {
         return;
     }
 
+    if (user.accessCode && user.accessCode !== accessCode) {
+        loginError.textContent = 'Zugangscode falsch.';
     if (user.accessCode && accessCode !== user.accessCode) {
         loginError.textContent = 'Zugangscode ungültig.';
         generateChallenge();
