@@ -3,143 +3,189 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adventskalender</title>
+    <title>FutureLab Navigator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="app">
-      <section id="intro" class="section intro">
-        <h1 id="kalTitle">Adventskalender</h1>
-        <p class="subtitle">
-          Öffne jeden Tag eine Tür und beantworte eine Frage aus deinem Lieblingsuniversum.
+    <header class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">FutureLab Projektzentrale</p>
+        <h1>Navigator für das nächste große Teamprojekt</h1>
+        <p>
+          Keine Türchen, sondern ein kompletter Projekt-Flow: Von der Idee über die
+          Umsetzung bis zur Impact-Messung. Alle Module sind lokal im Browser
+          lauffähig und lassen sich ohne Backend anpassen.
         </p>
+        <div class="hero__actions">
+          <a class="btn" href="#timeline">Fahrplan öffnen</a>
+          <a class="btn btn--ghost" href="#taskHub">Task-Hub</a>
+        </div>
+      </div>
+      <div class="hero__status">
+        <article>
+          <h2>Nächster Meilenstein</h2>
+          <p id="nextMilestone">Discovery Sprint – 12. Januar</p>
+        </article>
+        <article>
+          <h2>Team-Puls</h2>
+          <div class="pulse" aria-live="polite">
+            <span id="teamPulse">82%</span>
+            <small>Fokus & Energie</small>
+          </div>
+        </article>
+      </div>
+    </header>
+
+    <main>
+      <section id="mission" class="panel panel--grid">
+        <article>
+          <h2>Mission Briefing</h2>
+          <p>
+            FutureLab Navigator bündelt UX-Research, Umsetzung und Launch in einer
+            einzigen Oberfläche. Nutze die Module, um Sessions vorzubereiten,
+            Aufgaben zu priorisieren und Ideen sichtbar zu machen.
+          </p>
+          <ul class="chip-list" id="missionTags">
+            <li>Human Centered</li>
+            <li>Rapid Testing</li>
+            <li>Story-driven</li>
+            <li>Tech + Design</li>
+          </ul>
+        </article>
+        <article class="metrics" aria-live="polite">
+          <div>
+            <h3>Aktive Streams</h3>
+            <strong id="streamCount">3</strong>
+          </div>
+          <div>
+            <h3>Offene Tasks</h3>
+            <strong id="openTasks">0</strong>
+          </div>
+          <div>
+            <h3>Fertig</h3>
+            <strong id="doneTasks">0</strong>
+          </div>
+        </article>
       </section>
 
-      <section id="gate" class="section gate">
-        <h2>Login</h2>
-        <p>Bitte bestätige, dass du der richtige Spieler bist.</p>
-        <div class="field">
-          <label for="in_name">Name</label>
-          <input id="in_name" name="name" type="text" autocomplete="off" />
+      <section id="timeline" class="panel">
+        <div class="panel__header">
+          <h2>Projektfahrplan</h2>
+          <p>Wähle eine Phase aus, um die wichtigsten Aktivitäten zu sehen.</p>
         </div>
-        <div class="field">
-          <label for="in_dob">Geburtsdatum</label>
-          <input id="in_dob" name="dob" type="date" />
+        <div class="timeline">
+          <nav class="timeline__steps" aria-label="Projektphasen">
+            <button class="timeline__step" data-phase="explore">Explore</button>
+            <button class="timeline__step" data-phase="build">Build</button>
+            <button class="timeline__step" data-phase="launch">Launch</button>
+            <button class="timeline__step" data-phase="impact">Impact</button>
+          </nav>
+          <article id="phaseDetail" class="timeline__detail" aria-live="polite"></article>
         </div>
-        <div class="field captcha">
-          <span id="cap_text" aria-live="polite"></span>
-          <input id="in_cap" name="captcha" type="number" inputmode="numeric" />
-        </div>
-        <p id="gate_err" class="error" role="alert"></p>
-        <button id="btn_start" type="button">Los geht's</button>
       </section>
 
-      <section class="section actions">
-        <button id="btnShuffle" type="button" class="hidden">Neu mischen</button>
+      <section id="taskHub" class="panel">
+        <div class="panel__header">
+          <h2>Task-Hub</h2>
+          <p>Leg neue Work Items an und verschiebe sie durch die Phasen.</p>
+        </div>
+        <form id="taskForm" class="task-form">
+          <label>
+            Titel
+            <input type="text" name="title" required placeholder="z. B. Nutzerinterviews planen" />
+          </label>
+          <label>
+            Verantwortlich
+            <input type="text" name="owner" placeholder="Name" />
+          </label>
+          <label>
+            Typ
+            <select name="category">
+              <option value="Research">Research</option>
+              <option value="Design">Design</option>
+              <option value="Tech">Tech</option>
+            </select>
+          </label>
+          <button type="submit" class="btn">Task erstellen</button>
+        </form>
+
+        <div class="task-board" aria-live="polite">
+          <div class="task-column" data-status="explore">
+            <h3>Explore</h3>
+            <ul class="task-list" id="col-explore"></ul>
+          </div>
+          <div class="task-column" data-status="build">
+            <h3>Build</h3>
+            <ul class="task-list" id="col-build"></ul>
+          </div>
+          <div class="task-column" data-status="review">
+            <h3>Review</h3>
+            <ul class="task-list" id="col-review"></ul>
+          </div>
+          <div class="task-column" data-status="done">
+            <h3>Done</h3>
+            <ul class="task-list" id="col-done"></ul>
+          </div>
+        </div>
       </section>
 
-      <section class="section calendar-wrapper">
-        <div id="calendar" class="calendar" aria-live="polite"></div>
+      <section id="ideaDeck" class="panel">
+        <div class="panel__header">
+          <h2>Idea Deck</h2>
+          <p>Shuffle, wenn du einen neuen Impuls brauchst.</p>
+        </div>
+        <article class="idea-card" aria-live="polite">
+          <p class="idea-card__tag" id="ideaTag"></p>
+          <h3 id="ideaTitle"></h3>
+          <p id="ideaDescription"></p>
+          <button type="button" id="shuffleIdea" class="btn btn--ghost">Neuen Impuls</button>
+        </article>
+      </section>
+
+      <section id="resources" class="panel panel--grid">
+        <article>
+          <h2>Weekly Alignment</h2>
+          <ul class="resource-list">
+            <li>
+              <strong>Montag</strong>
+              <p>Kick-off & Ziel-Check-in</p>
+            </li>
+            <li>
+              <strong>Mittwoch</strong>
+              <p>Maker-Session, kein Meeting vor 13 Uhr</p>
+            </li>
+            <li>
+              <strong>Freitag</strong>
+              <p>Demo & Retro mit Fokus auf Lernmomente</p>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h2>Toolstack</h2>
+          <ul class="chip-list">
+            <li>Figjam</li>
+            <li>Notion</li>
+            <li>OBS Studio</li>
+            <li>Supabase</li>
+            <li>Linear</li>
+          </ul>
+          <p class="muted">
+            Passe die Liste in <code>script.js</code> an, um dein eigenes Setup abzubilden.
+          </p>
+        </article>
       </section>
     </main>
 
-    <aside id="debug" class="debug">
-      <div class="debug__header">
-        <strong>Debug</strong>
-        <span id="dbg-status">–</span>
-      </div>
-      <div id="dbg-log" class="debug__log" aria-live="polite"></div>
-    </aside>
+    <footer class="footer">
+      <p>FutureLab Navigator · gebaut ohne Backend, bereit für neue Experimente.</p>
+    </footer>
 
-    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
-      <div class="modal__dialog">
-        <button id="btnClose" type="button" class="modal__close" aria-label="Schließen">×</button>
-        <h2 id="mtitle" class="modal__title"></h2>
-        <p id="qtext" class="modal__question"></p>
-        <div id="answers" class="modal__answers"></div>
-      </div>
-    </div>
-
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOAHSKALENDER</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <div id="matrix-intro" class="fullscreen">
-        <canvas id="matrix-canvas"></canvas>
-        <div class="matrix-noise"></div>
-    </div>
-
-    <main id="app">
-        <section id="login-screen" class="fullscreen hidden">
-            <div class="login-card">
-                <h1>Systemzugang</h1>
-                <form id="login-form">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" required>
-
-                    <label for="birthdate">Geburtsdatum</label>
-                    <input type="date" id="birthdate" required>
-
-                    <label for="access-code">Zugangscode</label>
-                    <input type="text" id="access-code" required>
-                    <input type="password" id="access-code" inputmode="numeric" pattern="[0-9]{4,}" placeholder="Zahlencode" required>
-
-                    <div class="challenge">
-                        <span id="challenge-text"></span>
-                        <input type="number" id="challenge-answer" required>
-                    </div>
-
-                    <button type="submit">Anmelden</button>
-                    <p id="login-error" class="error"></p>
-                    <p id="loading-status" class="status-message">Systeminitialisierung läuft …</p>
-                </form>
-            </div>
-        </section>
-
-        <section id="intermediate-screen" class="fullscreen hidden">
-            <div class="glitch-container">
-                <span class="glitch" data-text="NOAHS ADVENTS KALENDER 2025">NOAHS ADVENTS KALENDER 2025</span>
-            </div>
-        </section>
-
-        <section id="calendar-screen" class="hidden">
-            <header>
-                <h1 id="calendar-title">NOAHSKALENDER</h1>
-                <div class="audio-controls">
-                    <button id="mute-toggle" aria-label="Ton an/aus">🔊</button>
-                    <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.5" aria-label="Lautstärke">
-                </div>
-            </header>
-            <div id="animation-layer">
-                <div class="santa">🎅</div>
-                <div class="elf elf-left">🧝</div>
-                <div class="elf elf-right">🧝</div>
-            </div>
-            <div class="snow"></div>
-            <div id="calendar-grid"></div>
-            <div class="controls">
-                <button id="refresh-questions">Fragen neu mischen</button>
-            </div>
-        </section>
-    </main>
-
-    <div id="question-modal" class="hidden" role="dialog" aria-modal="true">
-        <div class="modal-content">
-            <button class="close-modal" aria-label="Schließen">×</button>
-            <h2 id="question-category"></h2>
-            <p id="question-text"></p>
-            <div id="answers"></div>
-            <p id="feedback"></p>
-        </div>
-    </div>
-
-    <audio id="background-audio" preload="auto"></audio>
-
-    <script src="assets/js/app.js" type="module"></script>
-</body>
 </html>
