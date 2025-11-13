@@ -1,0 +1,632 @@
+[
+    {
+        "question": "Wie heißt der Gestaltwandler, aus dessen Sicht die Hauptreihe erzählt wird?",
+        "answers": [
+            {
+                "text": "Tikaani",
+                "correct": false
+            },
+            {
+                "text": "Carag",
+                "correct": true
+            },
+            {
+                "text": "Wing",
+                "correct": false
+            },
+            {
+                "text": "Rory",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Auf welcher Schule lernen junge Woodwalkers, ihre Fähigkeiten zu kontrollieren?",
+        "answers": [
+            {
+                "text": "St. Lupus College",
+                "correct": false
+            },
+            {
+                "text": "Clearwater High",
+                "correct": true
+            },
+            {
+                "text": "Misty Mountain Prep",
+                "correct": false
+            },
+            {
+                "text": "Forest Grove Academy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In welches Tier kann sich Carag verwandeln?",
+        "answers": [
+            {
+                "text": "Schwarzer Panther",
+                "correct": false
+            },
+            {
+                "text": "Berglöwe",
+                "correct": true
+            },
+            {
+                "text": "Timberwolf",
+                "correct": false
+            },
+            {
+                "text": "Grizzlybär",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Tiergestalt besitzt Carags beste Freundin Holly?",
+        "answers": [
+            {
+                "text": "Rotes Eichhörnchen",
+                "correct": true
+            },
+            {
+                "text": "Polarfüchsin",
+                "correct": false
+            },
+            {
+                "text": "Kolibri",
+                "correct": false
+            },
+            {
+                "text": "Streifenhörnchen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie lautet der Name der Woodwalkers-Lehrerin, die oft in Wolfsgestalt auftritt?",
+        "answers": [
+            {
+                "text": "Mrs. Logan",
+                "correct": false
+            },
+            {
+                "text": "Mrs. Becker",
+                "correct": false
+            },
+            {
+                "text": "Mrs. Parker",
+                "correct": true
+            },
+            {
+                "text": "Mrs. Summers",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche besondere Fähigkeit besitzt Tikaani als Eisbär-Wandlerin?",
+        "answers": [
+            {
+                "text": "Sie kann Gedanken lesen.",
+                "correct": false
+            },
+            {
+                "text": "Sie hält extrem niedrige Temperaturen aus.",
+                "correct": true
+            },
+            {
+                "text": "Sie fliegt kurze Strecken.",
+                "correct": false
+            },
+            {
+                "text": "Sie wird unsichtbar im Schnee.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wer ist der Anführer der skrupellosen Hunter, die Jagd auf Woodwalkers machen?",
+        "answers": [
+            {
+                "text": "Andrew Milling",
+                "correct": true
+            },
+            {
+                "text": "Mister Bridger",
+                "correct": false
+            },
+            {
+                "text": "Rick Clearwater",
+                "correct": false
+            },
+            {
+                "text": "Jeff Archer",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Beziehung verbindet Carag mit der Journalistin Kat?",
+        "answers": [
+            {
+                "text": "Sie ist seine Mentorin.",
+                "correct": false
+            },
+            {
+                "text": "Sie ist seine Schwester.",
+                "correct": false
+            },
+            {
+                "text": "Sie ist seine leibliche Mutter.",
+                "correct": true
+            },
+            {
+                "text": "Sie ist die Direktorin der Schule.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welches Tier ist Brandon, der Carag oft im Unterricht neckt?",
+        "answers": [
+            {
+                "text": "Rotluchs",
+                "correct": false
+            },
+            {
+                "text": "Kodiakbär",
+                "correct": true
+            },
+            {
+                "text": "Kojote",
+                "correct": false
+            },
+            {
+                "text": "Bison",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welches Fach vermittelt Mister Bridger an der Clearwater High?",
+        "answers": [
+            {
+                "text": "Kampftraining",
+                "correct": false
+            },
+            {
+                "text": "Tarnung und Verhalten",
+                "correct": true
+            },
+            {
+                "text": "Geschichte der Menschenwelt",
+                "correct": false
+            },
+            {
+                "text": "Botanik",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Fähigkeit macht Wing als Adler-Wandler besonders wertvoll für das Team?",
+        "answers": [
+            {
+                "text": "Er kann Stimmen imitieren.",
+                "correct": false
+            },
+            {
+                "text": "Er liefert Luftaufklärung über weite Strecken.",
+                "correct": true
+            },
+            {
+                "text": "Er beherrscht Gedankenmanipulation.",
+                "correct": false
+            },
+            {
+                "text": "Er versteht alle Tierarten.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie heißt die Gruppe von Feinden, die Woodwalkers versklaven will?",
+        "answers": [
+            {
+                "text": "Shadow Pack",
+                "correct": false
+            },
+            {
+                "text": "Blacktail Company",
+                "correct": false
+            },
+            {
+                "text": "Blood Wolves",
+                "correct": false
+            },
+            {
+                "text": "Vanistas",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Was macht die Berge um Jackson Hole zu einem wichtigen Schauplatz der Bücher?",
+        "answers": [
+            {
+                "text": "Dort befindet sich das geheime Hauptquartier der Hunter.",
+                "correct": false
+            },
+            {
+                "text": "Sie beherbergen viele Wildtiere, die Woodwalkers werden können.",
+                "correct": true
+            },
+            {
+                "text": "Die Berge verhindern jede Magie.",
+                "correct": false
+            },
+            {
+                "text": "Nur dort wächst das Heilmittel gegen Vanistas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie heißt der Direktor der Clearwater High?",
+        "answers": [
+            {
+                "text": "Mr. Carrington",
+                "correct": false
+            },
+            {
+                "text": "Mr. Hunter",
+                "correct": false
+            },
+            {
+                "text": "Mr. Clearwater",
+                "correct": false
+            },
+            {
+                "text": "Mr. Goodfellow",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welches Talent beweist die Delfin-Wandlerin Shari immer wieder?",
+        "answers": [
+            {
+                "text": "Sie schreibt schnell geheime Codes.",
+                "correct": false
+            },
+            {
+                "text": "Sie navigiert perfekt in unbekannten Gewässern.",
+                "correct": true
+            },
+            {
+                "text": "Sie kontrolliert Wasserpflanzen.",
+                "correct": false
+            },
+            {
+                "text": "Sie kann Blitze erzeugen.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Rolle spielt die Schülerzeitung \"The Howler\"?",
+        "answers": [
+            {
+                "text": "Sie ist das Forum der Hunter.",
+                "correct": false
+            },
+            {
+                "text": "Sie deckt geheime Pläne innerhalb der Schule auf.",
+                "correct": true
+            },
+            {
+                "text": "Sie dient als Notrufsystem.",
+                "correct": false
+            },
+            {
+                "text": "Sie ist ein magisches Artefakt.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Spezialität zeichnet den Lehrer Mr. Patel aus?",
+        "answers": [
+            {
+                "text": "Er kann Tiere herbeirufen.",
+                "correct": false
+            },
+            {
+                "text": "Er unterrichtet Kräuterkunde für Heilsalben.",
+                "correct": true
+            },
+            {
+                "text": "Er ist Meister im Bogenschießen.",
+                "correct": false
+            },
+            {
+                "text": "Er entwirft Tarnanzüge.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Was ist der Moonlight Run?",
+        "answers": [
+            {
+                "text": "Ein Wettlauf aller Tierarten in der Vollmondnacht.",
+                "correct": false
+            },
+            {
+                "text": "Ein traditionelles Training, bei dem die Schüler nachts in Tiergestalt üben.",
+                "correct": true
+            },
+            {
+                "text": "Ein Ritual zur Aufnahme neuer Lehrer.",
+                "correct": false
+            },
+            {
+                "text": "Der Codename der Hunter für einen Angriff.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Warum darf Carag nicht offenbaren, dass er als Kind bei Menschen lebte?",
+        "answers": [
+            {
+                "text": "Es würde seine Kräfte schwächen.",
+                "correct": false
+            },
+            {
+                "text": "Viele Woodwalkers misstrauen Menschen und könnten ihn ausschließen.",
+                "correct": true
+            },
+            {
+                "text": "Seine Erinnerung wurde gelöscht.",
+                "correct": false
+            },
+            {
+                "text": "Die Direktion hat es gesetzlich verboten.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Eigenschaft macht die Vanistas so gefährlich?",
+        "answers": [
+            {
+                "text": "Sie können Woodwalkers in Tiere einschließen.",
+                "correct": false
+            },
+            {
+                "text": "Sie nutzen Duftstoffe, die Wandler willenlos machen.",
+                "correct": true
+            },
+            {
+                "text": "Sie verwandeln sich in Drachen.",
+                "correct": false
+            },
+            {
+                "text": "Sie kontrollieren das Wetter.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie nennt man Woodwalkers, die dauerhaft im Menschengestalt bleiben möchten?",
+        "answers": [
+            {
+                "text": "Steiner",
+                "correct": false
+            },
+            {
+                "text": "Stayers",
+                "correct": true
+            },
+            {
+                "text": "Stillborns",
+                "correct": false
+            },
+            {
+                "text": "Staters",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Disziplin liegt der Geparden-Wandlerin Nuru besonders?",
+        "answers": [
+            {
+                "text": "Computer-Hacking",
+                "correct": false
+            },
+            {
+                "text": "Extrem schnelle Botengänge",
+                "correct": true
+            },
+            {
+                "text": "Unterwasserforschung",
+                "correct": false
+            },
+            {
+                "text": "Schnitzen von Totems",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wer unterstützt Carag oft bei politischen Entscheidungen der Woodwalkers?",
+        "answers": [
+            {
+                "text": "Sein Vater Andrew",
+                "correct": false
+            },
+            {
+                "text": "Direktor Goodfellow",
+                "correct": true
+            },
+            {
+                "text": "Der Hunter Rusty",
+                "correct": false
+            },
+            {
+                "text": "Die Reporterin Olivia",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welches Geheimnis verbindet Frankie mit Carag?",
+        "answers": [
+            {
+                "text": "Sie sind Cousins.",
+                "correct": false
+            },
+            {
+                "text": "Frankie kann seine Pumagestalt nicht kontrollieren.",
+                "correct": false
+            },
+            {
+                "text": "Frankie ist ein Technikgenie, das Carag mit Gadgets ausstattet.",
+                "correct": true
+            },
+            {
+                "text": "Frankie gehört zu den Vanistas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welcher Ort dient als Zuflucht für verletzte oder bedrohte Woodwalkers?",
+        "answers": [
+            {
+                "text": "Der Canyon der Stimmen",
+                "correct": false
+            },
+            {
+                "text": "Das Camp der Bisonwandler",
+                "correct": false
+            },
+            {
+                "text": "Das Green Valley Hospital",
+                "correct": true
+            },
+            {
+                "text": "Der unterirdische Kristallwald",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie reagieren Woodwalkers auf pure Silberketten?",
+        "answers": [
+            {
+                "text": "Sie verstärken die Sinne.",
+                "correct": false
+            },
+            {
+                "text": "Sie schwächen und verletzen die Träger.",
+                "correct": true
+            },
+            {
+                "text": "Sie lösen sofort eine Verwandlung aus.",
+                "correct": false
+            },
+            {
+                "text": "Sie ermöglichen Telepathie.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Welche Eigenschaft macht Cliff, den Bisonschüler, zu einem wertvollen Verbündeten?",
+        "answers": [
+            {
+                "text": "Seine Fähigkeit, Wetter zu kontrollieren.",
+                "correct": false
+            },
+            {
+                "text": "Sein ruhiges Temperament und seine Stärke in Schutzformationen.",
+                "correct": true
+            },
+            {
+                "text": "Sein Talent für Heilmagie.",
+                "correct": false
+            },
+            {
+                "text": "Sein fotografisches Gedächtnis.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Was ist besonders am Unterrichtsfach 'Menschliche Tarnung'?",
+        "answers": [
+            {
+                "text": "Es lehrt, wie man Kleidung in Tiere verwandelt.",
+                "correct": false
+            },
+            {
+                "text": "Es trainiert Woodwalkers darin, sich in der Menschenwelt unauffällig zu benehmen.",
+                "correct": true
+            },
+            {
+                "text": "Es beschäftigt sich mit Illusionsmagie.",
+                "correct": false
+            },
+            {
+                "text": "Es ist eine Prüfung für Vanistas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wie heißt das europäische Spin-off, das sich an die Hauptreihe anschließt?",
+        "answers": [
+            {
+                "text": "Woodwalkers Europe",
+                "correct": false
+            },
+            {
+                "text": "Seawalkers",
+                "correct": false
+            },
+            {
+                "text": "Woodwalkers & Friends",
+                "correct": false
+            },
+            {
+                "text": "Woodwalkers – Die Rückkehr",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Welche Herausforderung müssen Carag und seine Freunde während der Austauschreise bestehen?",
+        "answers": [
+            {
+                "text": "Sie müssen ein Heilmittel für die Vanistas finden.",
+                "correct": false
+            },
+            {
+                "text": "Sie treffen auf europäische Wandler und verhindern einen Anschlag.",
+                "correct": true
+            },
+            {
+                "text": "Sie suchen ein verschollenes Artefakt in Australien.",
+                "correct": false
+            },
+            {
+                "text": "Sie bauen eine neue Schule im Regenwald.",
+                "correct": false
+            }
+        ]
+    }
+]
