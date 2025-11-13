@@ -4,6 +4,7 @@ const DOOR_COUNT = 24;
 const QUESTION_FILES = {
     Marvel: 'fragen/marvel.json',
     Fortnite: 'fragen/fortnite.json',
+    Woodwalkers: 'fragen/woodwalkers.json',
     Woodworkers: 'fragen/woodworkers.json',
     Survival: 'fragen/survival.json',
     Physik: 'fragen/physik.json',
@@ -16,6 +17,7 @@ const QUESTION_FILES = {
 const CATEGORY_ICONS = {
     Marvel: '🛡️',
     Fortnite: '🎯',
+    Woodwalkers: '🐺',
     Woodworkers: '🪚',
     Survival: '🧭',
     Physik: '⚡',
@@ -55,6 +57,7 @@ const loginScreen = document.getElementById('login-screen');
 const intermediateScreen = document.getElementById('intermediate-screen');
 const calendarScreen = document.getElementById('calendar-screen');
 const loginForm = document.getElementById('login-form');
+const accessCodeInput = document.getElementById('access-code');
 const challengeText = document.getElementById('challenge-text');
 const challengeAnswer = document.getElementById('challenge-answer');
 const loginError = document.getElementById('login-error');
@@ -353,6 +356,7 @@ async function handleLogin(event) {
 
     const name = document.getElementById('name').value.trim();
     const birthdate = document.getElementById('birthdate').value;
+    const accessCode = accessCodeInput.value.trim();
     const challengeSolution = challengeAnswer.dataset.solution;
 
     if (!users[name]) {
@@ -368,6 +372,12 @@ async function handleLogin(event) {
         return;
     }
 
+    if (user.accessCode && accessCode !== user.accessCode) {
+        loginError.textContent = 'Zugangscode ungültig.';
+        generateChallenge();
+        return;
+    }
+
     if (challengeAnswer.value.trim() !== challengeSolution) {
         loginError.textContent = 'Rechenaufgabe falsch. Bitte erneut versuchen.';
         generateChallenge();
@@ -378,6 +388,7 @@ async function handleLogin(event) {
     activeUser = user;
     calendarTitle.textContent = user.calendarTitle || 'Dein Adventskalender';
 
+    accessCodeInput.value = '';
     loginScreen.classList.add('hidden');
     intermediateScreen.classList.remove('hidden');
 
