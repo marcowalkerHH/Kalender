@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Wie heißt der Planet, auf dem Anakin Skywalker aufwächst?",
+        "answers": [
+            {"text": "Naboo", "correct": false},
+            {"text": "Tatooine", "correct": true},
+            {"text": "Coruscant", "correct": false},
+            {"text": "Mustafar", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Farbe hat das Lichtschwert von Mace Windu?",
+        "answers": [
+            {"text": "Grün", "correct": false},
+            {"text": "Blau", "correct": false},
+            {"text": "Lila", "correct": true},
+            {"text": "Gelb", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet der Name des Schiffs von Han Solo?",
+        "answers": [
+            {"text": "Slave I", "correct": false},
+            {"text": "Millennium Falcon", "correct": true},
+            {"text": "X-Flügler", "correct": false},
+            {"text": "Star Destroyer", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Spezies ist Chewbacca?",
+        "answers": [
+            {"text": "Ewok", "correct": false},
+            {"text": "Wookiee", "correct": true},
+            {"text": "Rodianer", "correct": false},
+            {"text": "Twi'lek", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Schüler von Obi-Wan Kenobi, der zum Sith-Lord wird?",
+        "answers": [
+            {"text": "Luke Skywalker", "correct": false},
+            {"text": "Anakin Skywalker", "correct": true},
+            {"text": "Qui-Gon Jinn", "correct": false},
+            {"text": "Ezra Bridger", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Waffe zerstört den ersten Todesstern?",
+        "answers": [
+            {"text": "Protonentorpedo", "correct": true},
+            {"text": "Laserkanone", "correct": false},
+            {"text": "Ionenkanone", "correct": false},
+            {"text": "Traktorstrahl", "correct": false}
+        ]
+    },
+    {
+        "question": "Wer ist der oberste Anführer der Sith in den Episoden I-III?",
+        "answers": [
+            {"text": "Count Dooku", "correct": false},
+            {"text": "Darth Sidious", "correct": true},
+            {"text": "Darth Maul", "correct": false},
+            {"text": "General Grievous", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Planet, auf dem die Klonkriege beginnen?",
+        "answers": [
+            {"text": "Geonosis", "correct": true},
+            {"text": "Kamino", "correct": false},
+            {"text": "Utapau", "correct": false},
+            {"text": "Felucia", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Jedi überlebt Order 66 laut 'The Clone Wars'?",
+        "answers": [
+            {"text": "Ahsoka Tano", "correct": true},
+            {"text": "Shaak Ti", "correct": false},
+            {"text": "Ki-Adi-Mundi", "correct": false},
+            {"text": "Plo Koon", "correct": false}
+        ]
+    },
+    {
+        "question": "Welchen Titel trägt Leia Organa zu Beginn von Episode IV?",
+        "answers": [
+            {"text": "General", "correct": false},
+            {"text": "Prinzessin", "correct": true},
+            {"text": "Senatorin", "correct": false},
+            {"text": "Admiralin", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Kreatur dient den Tusken-Räubern als Reittier?",
+        "answers": [
+            {"text": "Bantha", "correct": true},
+            {"text": "Tauntaun", "correct": false},
+            {"text": "Rancor", "correct": false},
+            {"text": "Wampa", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt das uralte Lichtschwert, das Mandalorianer verehren?",
+        "answers": [
+            {"text": "Skyblade", "correct": false},
+            {"text": "Darksaber", "correct": true},
+            {"text": "Sunblade", "correct": false},
+            {"text": "Nightblade", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Droide begleitet Rey in Episode VII?",
+        "answers": [
+            {"text": "C-3PO", "correct": false},
+            {"text": "BB-8", "correct": true},
+            {"text": "K-2SO", "correct": false},
+            {"text": "L3-37", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Waffe verwendet Boba Fett hauptsächlich?",
+        "answers": [
+            {"text": "Bowcaster", "correct": false},
+            {"text": "EE-3 Karabinergeschütz", "correct": true},
+            {"text": "DL-44 Blaster", "correct": false},
+            {"text": "Electrostab", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Jedi-Meister, der den Klonauftrag gab?",
+        "answers": [
+            {"text": "Mace Windu", "correct": false},
+            {"text": "Sifo-Dyas", "correct": true},
+            {"text": "Depa Billaba", "correct": false},
+            {"text": "Kit Fisto", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Spezies ist Meister Yoda?",
+        "answers": [
+            {"text": "Er gehört einer unbekannten Spezies an", "correct": true},
+            {"text": "Er ist ein Twi'lek", "correct": false},
+            {"text": "Er ist ein Rodianer", "correct": false},
+            {"text": "Er ist ein Jawa", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Planet, auf dem die Jedi ihren Tempel in Episode II haben?",
+        "answers": [
+            {"text": "Coruscant", "correct": true},
+            {"text": "Alderaan", "correct": false},
+            {"text": "Lothal", "correct": false},
+            {"text": "Mustafar", "correct": false}
+        ]
+    },
+    {
+        "question": "Welchen Rang trägt Obi-Wan Kenobi in Episode I?",
+        "answers": [
+            {"text": "Jedi-Meister", "correct": false},
+            {"text": "Jedi-Ritter", "correct": false},
+            {"text": "Padawan", "correct": true},
+            {"text": "Großmeister", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Figur gründet die Erste Ordnung?",
+        "answers": [
+            {"text": "General Hux", "correct": false},
+            {"text": "Supreme Leader Snoke", "correct": true},
+            {"text": "Admiral Ackbar", "correct": false},
+            {"text": "Mon Mothma", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Planet ist die Heimat der Ewoks?",
+        "answers": [
+            {"text": "Endor", "correct": true},
+            {"text": "Hoth", "correct": false},
+            {"text": "Yavin 4", "correct": false},
+            {"text": "Scarif", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Sith trägt ein doppelklingiges Lichtschwert in Episode I?",
+        "answers": [
+            {"text": "Darth Maul", "correct": true},
+            {"text": "Darth Tyranus", "correct": false},
+            {"text": "Darth Vader", "correct": false},
+            {"text": "Darth Plagueis", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet der Geburtsname von Darth Vader?",
+        "answers": [
+            {"text": "Anakin Skywalker", "correct": true},
+            {"text": "Ben Skywalker", "correct": false},
+            {"text": "Galen Marek", "correct": false},
+            {"text": "Jacen Solo", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Rolle hat Finn, bevor er zur Rebellenallianz überläuft?",
+        "answers": [
+            {"text": "Pilot", "correct": false},
+            {"text": "Sturmtruppler", "correct": true},
+            {"text": "Mechaniker", "correct": false},
+            {"text": "Jedi", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Planet, auf dem Luke Skywalker in Episode VIII lebt?",
+        "answers": [
+            {"text": "Ahch-To", "correct": true},
+            {"text": "Dagobah", "correct": false},
+            {"text": "Tython", "correct": false},
+            {"text": "Jedha", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Einheit führt Captain Rex an?",
+        "answers": [
+            {"text": "501. Legion", "correct": true},
+            {"text": "327. Sternenkorps", "correct": false},
+            {"text": "212. Angriffsbataillon", "correct": false},
+            {"text": "104. Wolfpack", "correct": false}
+        ]
+    },
+    {
+        "question": "Welches Material macht Mandalorianer-Rüstungen so widerstandsfähig?",
+        "answers": [
+            {"text": "Beskar", "correct": true},
+            {"text": "Durastahl", "correct": false},
+            {"text": "Kyberstahl", "correct": false},
+            {"text": "Neutronium", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Lehrer von Qui-Gon Jinn?",
+        "answers": [
+            {"text": "Mace Windu", "correct": false},
+            {"text": "Count Dooku", "correct": true},
+            {"text": "Plo Koon", "correct": false},
+            {"text": "Yaddle", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Währung wird in großen Teilen der Galaxis verwendet?",
+        "answers": [
+            {"text": "Imperiale Credits", "correct": true},
+            {"text": "Republic Dinar", "correct": false},
+            {"text": "Hutt-Gold", "correct": false},
+            {"text": "Kessel-Steine", "correct": false}
+        ]
+    },
+    {
+        "question": "Welcher Jedi-Meister ist für seine violette Lichtschwertklinge berühmt?",
+        "answers": [
+            {"text": "Mace Windu", "correct": true},
+            {"text": "Ki-Adi-Mundi", "correct": false},
+            {"text": "Saesee Tiin", "correct": false},
+            {"text": "Kit Fisto", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie heißt der Podracer, den Anakin beim Boonta-Eve-Rennen fährt?",
+        "answers": [
+            {"text": "Custom-built Podracer", "correct": true},
+            {"text": "Sebulbas Blitz", "correct": false},
+            {"text": "Tusken Tornado", "correct": false},
+            {"text": "Mos-Espa Speeder", "correct": false}
+        ]
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Wie lautet der Flächeninhalt eines Rechtecks mit den Seitenlängen 8 cm und 6 cm?",
+        "answers": [
+            {"text": "28 cm²", "correct": false},
+            {"text": "48 cm²", "correct": true},
+            {"text": "52 cm²", "correct": false},
+            {"text": "36 cm²", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Lösung hat die Gleichung 3x + 9 = 0?",
+        "answers": [
+            {"text": "x = -3", "correct": true},
+            {"text": "x = 3", "correct": false},
+            {"text": "x = -9", "correct": false},
+            {"text": "x = 9", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist der Umfang eines Kreises mit dem Radius 5 cm (π ≈ 3,14)?",
+        "answers": [
+            {"text": "15,7 cm", "correct": false},
+            {"text": "31,4 cm", "correct": true},
+            {"text": "25 cm", "correct": false},
+            {"text": "62,8 cm", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Quadratwurzel aus 196?",
+        "answers": [
+            {"text": "12", "correct": false},
+            {"text": "14", "correct": true},
+            {"text": "16", "correct": false},
+            {"text": "18", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Steigung hat eine Gerade mit der Funktionsgleichung y = 4x - 5?",
+        "answers": [
+            {"text": "-5", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "1", "correct": false},
+            {"text": "0", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Primfaktorzerlegung von 84?",
+        "answers": [
+            {"text": "2 · 2 · 3 · 7", "correct": true},
+            {"text": "2 · 3 · 11", "correct": false},
+            {"text": "4 · 21", "correct": false},
+            {"text": "3 · 7 · 7", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist der Winkel eines regelmäßigen Sechsecks an jeder Ecke?",
+        "answers": [
+            {"text": "90°", "correct": false},
+            {"text": "120°", "correct": true},
+            {"text": "135°", "correct": false},
+            {"text": "150°", "correct": false}
+        ]
+    },
+    {
+        "question": "Welchen Wert hat 5! (Fakultät)?",
+        "answers": [
+            {"text": "60", "correct": false},
+            {"text": "120", "correct": true},
+            {"text": "720", "correct": false},
+            {"text": "24", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie berechnet man den Mittelwert der Zahlen 12, 18, 20?",
+        "answers": [
+            {"text": "(12 · 18 · 20) / 3", "correct": false},
+            {"text": "(12 + 18 + 20) / 3", "correct": true},
+            {"text": "12 + 18 + 20", "correct": false},
+            {"text": "(12 + 18) / 20", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Gleichung beschreibt eine Parabel mit Scheitelpunkt (0/0)?",
+        "answers": [
+            {"text": "y = 3x + 1", "correct": false},
+            {"text": "y = x²", "correct": true},
+            {"text": "y = 2x - 5", "correct": false},
+            {"text": "y = 4x", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist der Innenwinkel eines gleichseitigen Dreiecks?",
+        "answers": [
+            {"text": "45°", "correct": false},
+            {"text": "60°", "correct": true},
+            {"text": "90°", "correct": false},
+            {"text": "120°", "correct": false}
+        ]
+    },
+    {
+        "question": "Was ist das Ergebnis von (3/4) · (8/9)?",
+        "answers": [
+            {"text": "2/3", "correct": true},
+            {"text": "1/2", "correct": false},
+            {"text": "3/8", "correct": false},
+            {"text": "4/3", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Lösung des linearen Gleichungssystems: x + y = 10 und x - y = 2?",
+        "answers": [
+            {"text": "x = 4, y = 6", "correct": false},
+            {"text": "x = 6, y = 4", "correct": true},
+            {"text": "x = 5, y = 5", "correct": false},
+            {"text": "x = 8, y = 2", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie viele Prozent sind 18 von 120?",
+        "answers": [
+            {"text": "12%", "correct": false},
+            {"text": "15%", "correct": true},
+            {"text": "18%", "correct": false},
+            {"text": "20%", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die binomische Formel für (a + b)²?",
+        "answers": [
+            {"text": "a² + b²", "correct": false},
+            {"text": "a² + 2ab + b²", "correct": true},
+            {"text": "a² - 2ab + b²", "correct": false},
+            {"text": "2a² + b²", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist der Oberflächeninhalt eines Würfels mit Kantenlänge 3 cm?",
+        "answers": [
+            {"text": "18 cm²", "correct": false},
+            {"text": "54 cm²", "correct": true},
+            {"text": "36 cm²", "correct": false},
+            {"text": "27 cm²", "correct": false}
+        ]
+    },
+    {
+        "question": "Was ist der Kehrwert von 4/5?",
+        "answers": [
+            {"text": "5/4", "correct": true},
+            {"text": "4/5", "correct": false},
+            {"text": "1/4", "correct": false},
+            {"text": "1/5", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Potenz 2⁵?",
+        "answers": [
+            {"text": "16", "correct": false},
+            {"text": "32", "correct": true},
+            {"text": "64", "correct": false},
+            {"text": "48", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie berechnet man die Steigung zwischen den Punkten (2/3) und (6/11)?",
+        "answers": [
+            {"text": "(11 - 3) / (6 - 2)", "correct": true},
+            {"text": "(6 - 2) / (11 - 3)", "correct": false},
+            {"text": "(2 + 6) / (3 + 11)", "correct": false},
+            {"text": "(3 - 11) / (2 - 6)", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Zahl erhält man, wenn man 0,125 in einen Bruch umwandelt?",
+        "answers": [
+            {"text": "1/4", "correct": false},
+            {"text": "1/8", "correct": true},
+            {"text": "1/6", "correct": false},
+            {"text": "1/10", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie berechnet man das Volumen eines Prismas?",
+        "answers": [
+            {"text": "Grundfläche geteilt durch Höhe", "correct": false},
+            {"text": "Grundfläche mal Höhe", "correct": true},
+            {"text": "Grundfläche plus Höhe", "correct": false},
+            {"text": "Höhe minus Grundfläche", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Zahl ist eine Primzahl?",
+        "answers": [
+            {"text": "21", "correct": false},
+            {"text": "29", "correct": true},
+            {"text": "35", "correct": false},
+            {"text": "51", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Lösung der Ungleichung 5x - 7 > 18?",
+        "answers": [
+            {"text": "x > 3", "correct": false},
+            {"text": "x > 5", "correct": true},
+            {"text": "x > 4", "correct": false},
+            {"text": "x > 6", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist die Fläche eines Dreiecks mit Grundseite 10 cm und Höhe 4 cm?",
+        "answers": [
+            {"text": "20 cm²", "correct": true},
+            {"text": "40 cm²", "correct": false},
+            {"text": "10 cm²", "correct": false},
+            {"text": "25 cm²", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet der Bruch in Prozent: 7/20?",
+        "answers": [
+            {"text": "25%", "correct": false},
+            {"text": "35%", "correct": true},
+            {"text": "45%", "correct": false},
+            {"text": "30%", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Gleichung hat die Nullstellen x = -2 und x = 5?",
+        "answers": [
+            {"text": "x² - 3x - 10 = 0", "correct": true},
+            {"text": "x² + 3x - 10 = 0", "correct": false},
+            {"text": "x² - 7x + 10 = 0", "correct": false},
+            {"text": "x² + 7x - 10 = 0", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die Dezimalzahl von 3/16?",
+        "answers": [
+            {"text": "0,125", "correct": false},
+            {"text": "0,1875", "correct": true},
+            {"text": "0,2", "correct": false},
+            {"text": "0,375", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie groß ist die Hypotenuse eines rechtwinkligen Dreiecks mit Katheten 9 cm und 12 cm?",
+        "answers": [
+            {"text": "15 cm", "correct": true},
+            {"text": "13 cm", "correct": false},
+            {"text": "21 cm", "correct": false},
+            {"text": "18 cm", "correct": false}
+        ]
+    },
+    {
+        "question": "Welche Zahl erhält man beim Potenzieren: (-2)³?",
+        "answers": [
+            {"text": "6", "correct": false},
+            {"text": "-8", "correct": true},
+            {"text": "8", "correct": false},
+            {"text": "-6", "correct": false}
+        ]
+    },
+    {
+        "question": "Wie lautet die lineare Funktion, die durch die Punkte (0/2) und (4/6) verläuft?",
+        "answers": [
+            {"text": "y = x + 2", "correct": true},
+            {"text": "y = 2x + 2", "correct": false},
+            {"text": "y = 1/2x + 2", "correct": false},
+            {"text": "y = 4x - 2", "correct": false}
+        ]
+    }
+]

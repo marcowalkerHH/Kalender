@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>NOAHSKALENDER Vorschau-Link</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+      color: #0b1d26;
+      background: linear-gradient(135deg, #f4f9ff, #e4eef9);
+    }
+    h1 {
+      color: #0b7285;
+    }
+    code {
+      background: rgba(9, 94, 121, 0.1);
+      padding: 0.15rem 0.35rem;
+      border-radius: 0.35rem;
+    }
+    .link-card {
+      background: white;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      max-width: 38rem;
+      box-shadow: 0 1.5rem 3rem rgba(11, 29, 38, 0.08);
+    }
+    .link-card a {
+      display: inline-block;
+      margin-top: 0.75rem;
+      font-size: 1.1rem;
+      color: #0b7285;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .link-card a:hover,
+    .link-card a:focus {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="link-card">
+    <h1>NOAHSKALENDER testen</h1>
+    <p>
+      Klicke auf den folgenden Link, sobald du den lokalen Webserver gestartet
+      hast. Der Browser lädt dann direkt den Adventskalender.
+    </p>
+    <p>
+      <strong><a href="http://localhost:8000/index.html">NOAHSKALENDER öffnen</a></strong>
+    </p>
+    <p>
+      Verwende beim Login Name <code>Noah</code> und das Geburtsdatum
+      <code>2012-06-19</code>. Einen Zugangscode brauchst du nicht mehr;
+      löse einfach die eingeblendete Rechenaufgabe.
+    </p>
+    <p>
+      Falls du lieber ohne laufenden Webserver testen möchtest, kannst du die
+      Oberfläche auch über den relativen Pfad öffnen. Manche Browser blockieren
+      dabei jedoch Musik, Animationen oder Datenzugriffe.
+    </p>
+    <p>
+      <a href="index.html">Alternative (Datei direkt öffnen)</a>
+    </p>
+  </div>
+  <section>
+    <h2>So startest du den lokalen Webserver</h2>
+    <ol>
+      <li>Öffne ein Terminal und wechsle in dieses Projektverzeichnis <code>Kalender</code>.</li>
+      <li>Starte den Webserver mit <code>python -m http.server 8000</code>.</li>
+      <li>Rufe danach die obigen Links auf, um den Kalender zu sehen.</li>
+    </ol>
+  </section>
+</body>
+</html>
