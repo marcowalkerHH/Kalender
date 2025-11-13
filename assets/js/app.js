@@ -5,6 +5,7 @@ const QUESTION_FILES = {
     Marvel: 'fragen/marvel.json',
     Fortnite: 'fragen/fortnite.json',
     Woodwalkers: 'fragen/woodwalkers.json',
+    Woodworkers: 'fragen/woodworkers.json',
     Survival: 'fragen/survival.json',
     Physik: 'fragen/physik.json',
     Mathematik: 'fragen/mathematik.json',
@@ -17,6 +18,7 @@ const CATEGORY_ICONS = {
     Marvel: '🛡️',
     Fortnite: '🎯',
     Woodwalkers: '🐺',
+    Woodworkers: '🪚',
     Survival: '🧭',
     Physik: '⚡',
     Mathematik: '➗',
@@ -370,6 +372,8 @@ async function initialise() {
 
     setLoadingStatus('Systeminitialisierung läuft …');
     const preloadPromise = preloadData();
+    await loadUsers();
+    await loadQuestions();
 
     setTimeout(() => {
         clearInterval(rainInterval);
@@ -414,6 +418,8 @@ async function handleLogin(event) {
 
     if (user.accessCode && user.accessCode !== accessCode) {
         loginError.textContent = 'Zugangscode falsch.';
+    if (user.accessCode && accessCode !== user.accessCode) {
+        loginError.textContent = 'Zugangscode ungültig.';
         generateChallenge();
         return;
     }
@@ -428,6 +434,7 @@ async function handleLogin(event) {
     activeUser = user;
     calendarTitle.textContent = user.calendarTitle || 'Dein Adventskalender';
 
+    accessCodeInput.value = '';
     loginScreen.classList.add('hidden');
     intermediateScreen.classList.remove('hidden');
 

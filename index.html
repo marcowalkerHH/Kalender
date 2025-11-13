@@ -1,5 +1,67 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adventskalender</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section id="intro" class="section intro">
+        <h1 id="kalTitle">Adventskalender</h1>
+        <p class="subtitle">
+          Öffne jeden Tag eine Tür und beantworte eine Frage aus deinem Lieblingsuniversum.
+        </p>
+      </section>
+
+      <section id="gate" class="section gate">
+        <h2>Login</h2>
+        <p>Bitte bestätige, dass du der richtige Spieler bist.</p>
+        <div class="field">
+          <label for="in_name">Name</label>
+          <input id="in_name" name="name" type="text" autocomplete="off" />
+        </div>
+        <div class="field">
+          <label for="in_dob">Geburtsdatum</label>
+          <input id="in_dob" name="dob" type="date" />
+        </div>
+        <div class="field captcha">
+          <span id="cap_text" aria-live="polite"></span>
+          <input id="in_cap" name="captcha" type="number" inputmode="numeric" />
+        </div>
+        <p id="gate_err" class="error" role="alert"></p>
+        <button id="btn_start" type="button">Los geht's</button>
+      </section>
+
+      <section class="section actions">
+        <button id="btnShuffle" type="button" class="hidden">Neu mischen</button>
+      </section>
+
+      <section class="section calendar-wrapper">
+        <div id="calendar" class="calendar" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <aside id="debug" class="debug">
+      <div class="debug__header">
+        <strong>Debug</strong>
+        <span id="dbg-status">–</span>
+      </div>
+      <div id="dbg-log" class="debug__log" aria-live="polite"></div>
+    </aside>
+
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal__dialog">
+        <button id="btnClose" type="button" class="modal__close" aria-label="Schließen">×</button>
+        <h2 id="mtitle" class="modal__title"></h2>
+        <p id="qtext" class="modal__question"></p>
+        <div id="answers" class="modal__answers"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +87,7 @@
 
                     <label for="access-code">Zugangscode</label>
                     <input type="text" id="access-code" required>
+                    <input type="password" id="access-code" inputmode="numeric" pattern="[0-9]{4,}" placeholder="Zahlencode" required>
 
                     <div class="challenge">
                         <span id="challenge-text"></span>
